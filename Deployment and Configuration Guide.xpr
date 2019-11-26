@@ -5,6 +5,7 @@
         <options/>
     </meta>
     <projectTree name="Deployment%20and%20Configuration%20Guide.xpr">
+        <folder path="DITAVAL/"/>
         <folder path="Images/"/>
     </projectTree>
 </project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop action="exclude" att="audience" val="End_User"></prop>
+    <prop action="include" att="audience" backcolor="red"
+        color="yellow" style="none" val="Sys_Admin"></prop>
+    <prop action="exclude" att="platform" val="linux"></prop>
+    <prop action="include" att="platform" val="windows"></prop>
+</val>

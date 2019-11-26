@@ -3,6 +3,15 @@
 <concept id="open_virtual_appliance__ova__configuration_requirements">
     <title>Open Virtual Appliance (OVA) configuration requirements </title>
     <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>data servers</indexterm>
+                <indexterm>application stacks</indexterm>
+                <indexterm>Each Elasticsearch node</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all
             fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a

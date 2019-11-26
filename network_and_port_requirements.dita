@@ -3,7 +3,51 @@
 <reference id="network_and_port_requirements">
     <title>Network and port requirements</title>
     <shortdesc/>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>TCP <indexterm>port ranges for the firewall</indexterm></indexterm>
+                <indexterm>default open ports</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
     <refbody>
+        <section id="section_jn4_skz_vjb">
+            <p>For proper communication, the IBM StoredIQ components must be able to connect to each
+                other. You must enable network connectivity from the following locations:</p>
+            <ul id="ul_qyy_tkz_vjb">
+                <li>The data server IP address to the gateway IP address on port 11103</li>
+                <li>The gateway IP address to and from the application stack IP address on port 8765
+                    and 5432</li>
+                <li>Ports 80, 443, and 22 from the administrative workstation to the application
+                    stack and data server IP addresses</li>
+                <li>Port 22 from the administrative workstation to the gateway IP address. </li>
+            </ul>
+        </section>
+        <section id="section_ebj_wkz_vjb">
+            <title>TCP: port ranges for the firewall</title>
+            <p>To ensure the network access for desktop volumes, the following port ranges must be
+                open through a firewall:</p>
+            <ul id="ul_ft1_ykz_vjb">
+                <li> 21000-21004 </li>
+                <li>21100-21101 </li>
+                <li>21110-21130 </li>
+                <li>21200-21204 </li>
+            </ul>
+        </section>
+        <section id="section_wvx_zkz_vjb">
+            <title>Default open ports </title>
+            <p>The following ports are open by default on the IBM StoredIQ:</p>
+            <ul id="ul_vwb_dlz_vjb">
+                <li><b>SSH port 22</b><p>By default, port 22 is open on all IBM StoredIQ hosts. The
+                        port is used for Secure Shell (SSH) communication and allows remote
+                        administration access to the VM. In general, traffic is encrypted using
+                        password authentication. To add a layer of security, you can establish
+                        key-based authentication for passwordless SSH logins to any of the IBM
+                        StoredIQ nodes in your environment as described in “Configuring SSH
+                        key-based authentication” on page 45. </p></li>
+            </ul>
+        </section>
         <table frame="all" rowsep="1" colsep="1" id="table_uth_jst_vjb">
             <title>Default open ports on the AppStack</title>
             <tgroup cols="2">

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="dataserver_classic">
+    <glossterm>DataServer - Classic</glossterm>
+    <glossdef>DataServer - Classic refers to the regular data servers. It uses either the current
+        PostgreSQL or Lucene index as an index.</glossdef>
+</glossentry>

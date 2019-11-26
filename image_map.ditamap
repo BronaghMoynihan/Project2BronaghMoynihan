@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title></title>
+       <keydef keys="image1" href="Images/image1.png" format="png"></keydef>
+    <keydef keys="image2" href="Images/Image2.PNG" format="png"></keydef>
+    <keydef keys="image3" href="Images/Image3.PNG" format="png"></keydef>
+    <keydef keys="image4" href="Images/Image4.PNG" format="png"></keydef>
+    <keydef keys="image5" href="Images/Image5.PNG" format="png"></keydef>
+</map>

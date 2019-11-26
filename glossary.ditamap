@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Glossary</title>
+    <glossref keys="application_stack" href="application_stack.dita"></glossref>
+    <glossref keys="auto_classification" href="auto_classification.dita"></glossref>
+    <glossref keys="catridges" href="cartridges.dita"></glossref>
+    <glossref keys="connector_api_sdk" href="connector_api_sdk.dita"></glossref>
+    <glossref keys="data_servers" href="data_servers.dita"></glossref>
+    <glossref keys="dataserver_classic" href="dataserver_classic.dita"></glossref>
+    <glossref keys="dataserver_distributed" href="dataserver_distributed.dita"></glossref>
+    <glossref keys="gateway" href="gateway.dita"></glossref>
+    <glossref keys="ibm_storediq_insights" href="ibm_storediq_insights.dita"></glossref>
+</map>

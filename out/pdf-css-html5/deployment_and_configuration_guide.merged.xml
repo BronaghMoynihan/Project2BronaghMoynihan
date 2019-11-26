@@ -4,26 +4,41 @@
 <?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
 <map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="dita-ot.sourceforge.net/ns/201007/dita-ot" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrc="map:1;3:6" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/deployment_and_configuration_guide.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">Deployment and Configuration Guide</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
     <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/title ">Deployment and Configuration Guide</title>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="concept_m3x_jvl_vjb"><resourceid appid="concept_m3x_jvl_vjb" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">About this publication</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_2" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="ibm_storediq_product_library"><resourceid appid="ibm_storediq_product_library" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">IBM StoredIQ product library</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The following documents are available in the IBM StoredIQ product library:</shortdesc></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="contacting_ibm_storediq_customer_support"><resourceid appid="contacting_ibm_storediq_customer_support" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Contacting IBM StoredIQ customer support </navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="ibm_stored_iq_components"><resourceid appid="ibm_stored_iq_components" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">IBM Stored IQ Components</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The IBM StoredIQ solution consists of these components: the application stack, the         gateway, the data server, and optionally the Elasticsearch cluster.</shortdesc></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="planning_for_deployment"><resourceid appid="planning_for_deployment" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Planning for Deployment</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="open_virtual_appliance__ova__configuration_requirements"><resourceid appid="open_virtual_appliance__ova__configuration_requirements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Open Virtual Appliance (OVA) configuration requirements </navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_7" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="network_and_port_requirements"><resourceid appid="network_and_port_requirements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Network and port requirements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_8" type="task"><topicmeta class="- map/topicmeta " data-topic-id="open_ports_for_desktop_client_access_to_the_data_server"><resourceid appid="open_ports_for_desktop_client_access_to_the_data_server" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Open ports for desktop client access to the data server</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_9" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="environment_sizing_guidelines"><resourceid appid="environment_sizing_guidelines" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">Environment sizing guidelines </navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">To size an environment precisely, you must understand the factors such as harvest         frequency, complexity of the source, and use case scenarios that drive application use and         action execution. </shortdesc></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_10" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="licence_usage_metrics"><resourceid appid="licence_usage_metrics" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">Licence usage metrics</navtitle><?ditaot gentext?></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_11" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="security"><resourceid appid="security" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">Security</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Plan and implement specific security measures to protect the application and the data         it manages, especially when you deploy IBM StoredIQ into sensitive environments.</shortdesc></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_12" type="task"><topicmeta class="- map/topicmeta " data-topic-id="deploying_ibm_storediq"><resourceid appid="deploying_ibm_storediq" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">Deploying IBM StoredIQ</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_13" type="task"><topicmeta class="- map/topicmeta " data-topic-id="deploying_ibm_storediq_on_microsoft_hyper_v"><resourceid appid="deploying_ibm_storediq_on_microsoft_hyper_v" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_13" class="- topic/navtitle ">Deploying IBM StoredIQ on Microsoft Hyper-V</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data         server, and application stack can be installed on Microsoft Hyper-V. This option is not         supported for the Elasticsearch virtual appliance. Installing IBM StoredIQ on Microsoft         Hyper-V requires the use of third-party software. </shortdesc></topicmeta></topicref>
-</opentopic:map><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="concept_m3x_jvl_vjb" oid="concept_m3x_jvl_vjb">
+    <?ditaot gentext?><?ditaot gentext?><?ditaot gentext?><?ditaot gentext?><?ditaot gentext?>
+    
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="cover_page"><resourceid appid="cover_page" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Cover Page</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This is a document produced by Bronagh Moynihan based on pages 1-22 of the IBM         document Deployment and Conﬁguration Guide (available online <xref class="- topic/xref " format="pdf" href="https://www.ibm.com/support/%20pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_%201.pdf" outputclass="new_window" scope="external">here</xref>). </shortdesc></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="concept_m3x_jvl_vjb"><resourceid appid="concept_m3x_jvl_vjb" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">About this publication</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta><topicref class="- map/topicref " href="#unique_3" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="ibm_storediq_product_library"><resourceid appid="ibm_storediq_product_library" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">IBM StoredIQ product library</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The following documents are available in the IBM StoredIQ product library:</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="contacting_ibm_storediq_customer_support"><resourceid appid="contacting_ibm_storediq_customer_support" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Contacting IBM StoredIQ customer support </navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="ibm_stored_iq_components"><resourceid appid="ibm_stored_iq_components" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">IBM Stored IQ Components</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The IBM StoredIQ solution consists of these components: the application stack, the         gateway, the data server, and optionally the Elasticsearch cluster.</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="solution_components"><resourceid appid="solution_components" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Solution Components</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="applications_of_ibm_storediq"><resourceid appid="applications_of_ibm_storediq" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Applications of IBM StoredIQ</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">IBM StoredIQ provides interface applications that help fulfill its solution         goals.</shortdesc></topicmeta></topicref></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_8" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="planning_for_deployment"><resourceid appid="planning_for_deployment" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Planning for Deployment</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta><topicref class="- map/topicref " href="#unique_9" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="open_virtual_appliance__ova__configuration_requirements"><resourceid appid="open_virtual_appliance__ova__configuration_requirements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">Open Virtual Appliance (OVA) configuration requirements </navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_10" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="network_and_port_requirements"><resourceid appid="network_and_port_requirements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">Network and port requirements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_12" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="environment_sizing_guidelines"><resourceid appid="environment_sizing_guidelines" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">Environment sizing guidelines </navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">To size an environment precisely, you must understand the factors such as harvest         frequency, complexity of the source, and use case scenarios that drive application use and         action execution. </shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_13" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="stack_provisioning_prerequisites"><resourceid appid="stack_provisioning_prerequisites" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_13" class="- topic/navtitle ">Stack-provisioning prerequisites</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_14" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="licence_usage_metrics"><resourceid appid="licence_usage_metrics" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_14" class="- topic/navtitle ">Licence usage metrics</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_15" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="security"><resourceid appid="security" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_15" class="- topic/navtitle ">Security</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Plan and implement specific security measures to protect the application and the data         it manages, especially when you deploy IBM StoredIQ into sensitive environments.</shortdesc></topicmeta></topicref></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_16" type="task"><topicmeta class="- map/topicmeta " data-topic-id="deploying_ibm_storediq"><resourceid appid="deploying_ibm_storediq" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_16" class="- topic/navtitle ">Deploying IBM StoredIQ</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual         host environment. </shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_17" type="task"><topicmeta class="- map/topicmeta " data-topic-id="deploying_the_virtual_appliances_0"><resourceid appid="deploying_the_virtual_appliances_0" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_17" class="- topic/navtitle ">Deploying the virtual appliances</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref audience="Sys_Admin" class="- map/topicref " href="#unique_18" type="task"><topicmeta class="- map/topicmeta " data-topic-id="deploying_ibm_storediq_on_microsoft_hyper_v"><resourceid appid="deploying_ibm_storediq_on_microsoft_hyper_v" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_18" class="- topic/navtitle ">Deploying IBM StoredIQ on Microsoft Hyper-V</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data         server, and application stack can be installed on Microsoft Hyper-V. This option is not         supported for the Elasticsearch virtual appliance. Installing IBM StoredIQ on Microsoft         Hyper-V requires the use of third-party software. </shortdesc></topicmeta></topicref></topicref>
+<topicref is-chapter="true" is-index="true" class="- map/topicref "><topicmeta class="- map/topicmeta "><navtitle href="#d30e2588" class="- topic/navtitle ">Index</navtitle></topicmeta></topicref></opentopic:map><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="cover_page" oid="cover_page">
+    <title class="- topic/title ">Cover Page</title>
+    <shortdesc class="- topic/shortdesc ">This is a document produced by Bronagh Moynihan based on pages 1-22 of the IBM
+        document Deployment and Conﬁguration Guide (available online <xref class="- topic/xref " format="pdf" href="https://www.ibm.com/support/%20pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_%201.pdf" outputclass="new_window" scope="external"><?ditaot usertext?>here</xref>). </shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Conditions were applied to the text using a DITAVAL document. I devised a conditional
+            processing scheme based on the following attributes: </p>
+        <ul class="- topic/ul " id="unique_1_Connect_42_ul_kkz_xq1_wjb" nd:nd-id="ul_kkz_xq1_wjb">
+            <li class="- topic/li ">Windows</li>
+            <li class="- topic/li ">Linux</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_1_Connect_42_ul_cnt_yq1_wjb" nd:nd-id="ul_cnt_yq1_wjb">
+            <li class="- topic/li ">System Administrator (Sys_Admin)</li>
+            <li class="- topic/li ">End User (End_User</li>
+        </ul>
+        <p class="- topic/p "> Windows and Linux content was excluded/included as it pertained to the user. Technically
+            advanced content was conditioned for System Administrators while content deemed basic
+            was conditioned for End Users. The last topic in full is conditioned for system
+            administrator. System admin content is flagged in red and yellow.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="concept_m3x_jvl_vjb" oid="concept_m3x_jvl_vjb">
     <title class="- topic/title ">About this publication</title>
     <shortdesc class="- topic/shortdesc "/>
     <conbody class="- topic/body  concept/conbody ">
-        <p class="- topic/p "> IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and configure the IBM StoredIQ product.</p>
+        <p class="- topic/p "> IBM StoredIQ Deployment and Configuration Guide provides information about how to plan,
+            deploy, and configure the IBM StoredIQ product.</p>
     </conbody>
-</concept><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic       reference/reference " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="ibm_storediq_product_library" oid="ibm_storediq_product_library">
+<reference class="- topic/topic       reference/reference " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="ibm_storediq_product_library" oid="ibm_storediq_product_library">
     <title class="- topic/title ">IBM StoredIQ product library</title>
     <shortdesc class="- topic/shortdesc ">The following documents are available in the IBM StoredIQ product library:</shortdesc>
     <refbody class="- topic/body        reference/refbody "><section class="- topic/section ">
@@ -39,20 +54,20 @@
         </ul></p>
     </section>
     </refbody>
-</reference><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="contacting_ibm_storediq_customer_support" oid="contacting_ibm_storediq_customer_support">
+</reference><concept class="- topic/topic concept/concept " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="contacting_ibm_storediq_customer_support" oid="contacting_ibm_storediq_customer_support">
     <title class="- topic/title ">Contacting IBM StoredIQ customer support </title>
     <shortdesc class="- topic/shortdesc "/>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">For IBM StoredIQ technical support or to learn about available service options, contact
             IBM StoredIQ customer support at this phone number: </p>
-        <ul class="- topic/ul " id="unique_3_Connect_42_ul_adq_gjt_vjb" nd:nd-id="ul_adq_gjt_vjb">
+        <ul class="- topic/ul " id="unique_4_Connect_42_ul_adq_gjt_vjb" nd:nd-id="ul_adq_gjt_vjb">
             <li class="- topic/li ">1-866-227-2068 </li>
         </ul>
         <p class="- topic/p ">Or, see the Contact IBM web site at <xref class="- topic/xref " format="html" href="http://www.ibm.com/contact/us/" scope="external"/>.</p>
         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">IBM Knowledge Center</b>
         </p>
         <p class="- topic/p ">The IBM StoredIQ documentation is available in IBM Knowledge Center. Contacting IBM </p>
-        <section class="- topic/section " id="unique_3_Connect_42_section_fvh_ljt_vjb" nd:nd-id="section_fvh_ljt_vjb">
+        <section class="- topic/section " id="unique_4_Connect_42_section_fvh_ljt_vjb" nd:nd-id="section_fvh_ljt_vjb">
             <title class="- topic/title ">Contacting IBM</title>
             <p class="- topic/p ">For general inquiries, call 800-IBM-4YOU (800-426-4968). To contact IBM customer
                 service in the United States or Canada, call 1-800-IBM-SERV (1-800-426-7378).</p>
@@ -60,65 +75,87 @@
                 Contact IBM website at<xref class="- topic/xref " format="html" href="http://www.ibm.com/contact/us/" scope="external"/>. </p>
         </section>
     </conbody>
-</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="ibm_stored_iq_components" oid="ibm_stored_iq_components">
+</concept></concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="ibm_stored_iq_components" oid="ibm_stored_iq_components">
     <title class="- topic/title ">IBM Stored IQ Components</title>
     <shortdesc class="- topic/shortdesc ">The IBM StoredIQ solution consists of these components: the application stack, the
         gateway, the data server, and optionally the Elasticsearch cluster.</shortdesc>
+<concept class="- topic/topic concept/concept " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="solution_components" oid="solution_components">
+    <opentopic-index:refID indexid="indexid-1567718794" value="gateway:" class="- index/refid " id="d30e369"/><opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e374"/><opentopic-index:refID indexid="indexid-1355046945" value="application stacks:" class="- index/refid " id="d30e379"/><title class="- topic/title ">Solution Components</title>
+    <prolog class="- topic/prolog ">
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <opentopic-index:index.entry value="gateway" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">gateway</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1567718794" value="gateway:" class="- index/refid " id="d30e369"/></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="data servers" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">data servers</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e374"/></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="application stacks" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">application stacks</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1355046945" value="application stacks:" class="- index/refid " id="d30e379"/></opentopic-index:index.entry>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody class="- topic/body  concept/conbody ">
-        <section class="- topic/section " id="unique_4_Connect_42_section_wx1_5kt_vjb" nd:nd-id="section_wx1_5kt_vjb">
-            <title class="- topic/title ">Solution Components</title>
-            <p class="- topic/p ">IBM StoredIQ provides three solution components: the gateway, data servers, and
-                application stack (AppStack). </p>
-            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Gateway</b>
-            </p>
-            <p class="- topic/p ">The gateway communicates between the data servers and the application stack. The
-                application stack polls the gateway for information about the data on the data
-                servers. The data servers push the information to the gateway. </p>
-            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Data servers</b>
-            </p>
-            <p class="- topic/p ">A data server obtains the data from supported data sources and indexes it. By
-                indexing this data, you gain information about unstructured data such as file size,
-                file data types, file owners. </p>
-            <p class="- topic/p ">The data server pushes the information about volumes and indexes to the gateway so it
-                can be communicated to the application stack. Multiple data servers feed into a
-                single gateway. </p>
-            <p class="- topic/p ">Data servers can be categorized in two types: DataServer - Classic and DataServer -
-                Distributed. A data server of the type DataServer - Classic uses the embedded
-                PostgreSQL database for storing the index. With a data server of the type DataServer
-                - Distributed, the index is stored in an Elasticsearch cluster. Data servers of this
-                type also provide better performance in search queries. They can manage much larger
-                amounts of data than data servers of the type DataServer - Classic, thus making the
-                IBM StoredIQ deployments more scalable. </p>
-            <p class="- topic/p ">You can have both types of data servers in your IBM StoredIQ deployment. </p>
-            <p class="- topic/p ">In addition to completing standard administrative tasks, administrators can deploy
-                the IBM StoredIQ Desktop Data Collector and index desktops from the data server.</p>
-            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Application stack</b>
-            </p>
-            <p class="- topic/p ">The application stack provides the user interface for the IBM StoredIQ Administrator,
-                IBM StoredIQ Data Workbench, IBM StoredIQ Insights, and the IBM StoredIQ Policy
-                Manager products. The synchronization feature for integration with a governance
-                catalog is also part of the application stack. </p>
-            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Elasticsearch cluster</b>
-            </p>
-            <p class="- topic/p ">The Elasticsearch cluster attached to a data server of the type DataServer -
-                Distributed provides a single data store for all metadata and content of harvested
-                objects. Indexed data is distributed automatically across the nodes in the cluster.
-                Indexing and queries are load-balanced across all nodes. Nodes can be added
-                dynamically without downtime and the indexing process can use these newly added
-                nodes without further setup. </p>
-        </section>
-        <section class="- topic/section " id="unique_4_Connect_42_section_lsw_clt_vjb" nd:nd-id="section_lsw_clt_vjb">
-            <title class="- topic/title ">Applications of IBM StoredIQ</title>
-            <p class="- topic/p ">IBM StoredIQ provides interface applications that help fulfill its solution
-                goals.</p>
+        <p class="- topic/p "><term class="- topic/term " keyref="ibm_storediq_insights">IBM StoredIQ</term> provides three solution
+            components: the gateway, data servers, and application stack (AppStack). </p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="gateway">Gateway</term></b>
+        </p>
+        <p class="- topic/p ">The gateway communicates between the data servers and the application stack. The
+            application stack polls the gateway for information about the data on the data servers.
+            The data servers push the information to the gateway. </p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="data_servers">Data servers</term></b>
+        </p>
+        <p class="- topic/p ">A data server obtains the data from supported data sources and indexes it. By indexing
+            this data, you gain information about unstructured data such as file size, file data
+            types, file owners. </p>
+        <p class="- topic/p ">The data server pushes the information about volumes and indexes to the gateway so it can
+            be communicated to the application stack. Multiple data servers feed into a single
+            gateway. </p>
+        <p class="- topic/p ">Data servers can be categorized in two types: DataServer - Classic and DataServer -
+            Distributed. A data server of the type DataServer - Classic uses the embedded PostgreSQL
+            database for storing the index. With a data server of the type DataServer - Distributed,
+            the index is stored in an Elasticsearch cluster. Data servers of this type also provide
+            better performance in search queries. They can manage much larger amounts of data than
+            data servers of the type DataServer - Classic, thus making the IBM StoredIQ deployments
+            more scalable. </p>
+        <p class="- topic/p ">You can have both types of data servers in your IBM StoredIQ deployment. </p>
+        <p class="- topic/p ">In addition to completing standard administrative tasks, administrators can deploy the
+            IBM StoredIQ Desktop Data Collector and index desktops from the data server.</p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="application_stack">Application stack</term></b>
+        </p>
+        <p class="- topic/p ">The application stack provides the user interface for the IBM StoredIQ Administrator, IBM
+            StoredIQ Data Workbench, IBM StoredIQ Insights, and the IBM StoredIQ Policy Manager
+            products. The synchronization feature for integration with a governance catalog is also
+            part of the application stack. </p>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Elasticsearch cluster</b>
+        </p>
+        <p class="- topic/p ">The Elasticsearch cluster attached to a data server of the type DataServer - Distributed
+            provides a single data store for all metadata and content of harvested objects. Indexed
+            data is distributed automatically across the nodes in the cluster. Indexing and queries
+            are load-balanced across all nodes. Nodes can be added dynamically without downtime and
+            the indexing process can use these newly added nodes without further setup. </p>
+    </conbody>
+</concept><concept class="- topic/topic concept/concept " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="applications_of_ibm_storediq" oid="applications_of_ibm_storediq">
+    <opentopic-index:refID indexid="indexid1170097092" value="scheduling harvests:" class="- index/refid " id="d30e458"/><opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e463"/><opentopic-index:refID indexid="indexid-1816403384" value="data servers:classic:" class="- index/refid " id="d30e467"/><opentopic-index:refID indexid="indexid1464014423" value="data servers:distributed:" class="- index/refid " id="d30e471"/><opentopic-index:refID indexid="indexid762558115" value="IBM StoredIQ:" class="- index/refid " id="d30e476"/><opentopic-index:refID indexid="indexid-1488292752" value="IBM StoredIQ:administrator:" class="- index/refid " id="d30e480"/><opentopic-index:refID indexid="indexid1578881934" value="IBM StoredIQ:data workbench:" class="- index/refid " id="d30e484"/><opentopic-index:refID indexid="indexid-752572328" value="IBM StoredIQ:policy manager:" class="- index/refid " id="d30e488"/><opentopic-index:refID indexid="indexid1131853180" value="IBM StoredIQ:desktop data collector:" class="- index/refid " id="d30e492"/><opentopic-index:refID indexid="indexid-1161803580" value="action:" class="- index/refid " id="d30e497"/><title class="- topic/title ">Applications of IBM StoredIQ</title>
+    <shortdesc class="- topic/shortdesc ">IBM StoredIQ provides interface applications that help fulfill its solution
+        goals.</shortdesc>
+    <prolog class="- topic/prolog ">
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <opentopic-index:index.entry value="scheduling harvests" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">scheduling harvests</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1170097092" value="scheduling harvests:" class="- index/refid " id="d30e458"/></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="data servers" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">data servers</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e463"/><opentopic-index:index.entry value="classic" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">classic</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1816403384" value="data servers:classic:" class="- index/refid " id="d30e467"/></opentopic-index:index.entry><opentopic-index:index.entry value="distributed" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">distributed</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1464014423" value="data servers:distributed:" class="- index/refid " id="d30e471"/></opentopic-index:index.entry></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="IBM StoredIQ" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">IBM StoredIQ</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid762558115" value="IBM StoredIQ:" class="- index/refid " id="d30e476"/><opentopic-index:index.entry value="administrator" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">administrator</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1488292752" value="IBM StoredIQ:administrator:" class="- index/refid " id="d30e480"/></opentopic-index:index.entry><opentopic-index:index.entry value="data workbench" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">data workbench</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1578881934" value="IBM StoredIQ:data workbench:" class="- index/refid " id="d30e484"/></opentopic-index:index.entry><opentopic-index:index.entry value="policy manager" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">policy manager</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-752572328" value="IBM StoredIQ:policy manager:" class="- index/refid " id="d30e488"/></opentopic-index:index.entry><opentopic-index:index.entry value="desktop data collector" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">desktop data collector</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1131853180" value="IBM StoredIQ:desktop data collector:" class="- index/refid " id="d30e492"/></opentopic-index:index.entry></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="action" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">action</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1161803580" value="action:" class="- index/refid " id="d30e497"/></opentopic-index:index.entry>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody ">
+        <section class="- topic/section " id="unique_7_Connect_42_section_lsw_clt_vjb" nd:nd-id="section_lsw_clt_vjb">
             <p class="- topic/p "><b class="+ topic/ph hi-d/b ">IBM StoredIQ Data Server</b></p>
             <p class="- topic/p ">IBM StoredIQ Data Server user interface provides access to data server functionality.
                 It allows administrators to view the dashboard and see the status of the jobs and
-                system details. Administrators  can manage information about servers and conduct
+                system details. Administrators can manage information about servers and conduct
                 various configurations on the system and application settings.</p>
+            <fig class="- topic/fig "><image class="- topic/image " format="png" href="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/Images/image1.png" id="unique_7_Connect_42_image_wyw_h4z_vjb" nd:nd-id="image_wyw_h4z_vjb" keyref="image1" placement="inline"/></fig>
             <p class="- topic/p "><b class="+ topic/ph hi-d/b ">IBM StoredIQ Administrator </b></p>
             <p class="- topic/p ">IBM StoredIQ Administrator helps you manage global assets common to the distributed
                 infrastructure behind IBM StoredIQ applications.</p>
+            <fig class="- topic/fig " id="unique_7_Connect_42_fig_uqx_k4z_vjb" nd:nd-id="fig_uqx_k4z_vjb"><image class="- topic/image " format="png" href="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/Images/Image2.PNG" id="unique_7_Connect_42_image_cvk_l4z_vjb" nd:nd-id="image_cvk_l4z_vjb" keyref="image2" placement="inline"/></fig>
             <p class="- topic/p ">IBM StoredIQ Administrator provides at-a-glance understanding of the different issues
                 that can crop up in the IBM StoredIQ environment. These views are unique to the IBM
                 StoredIQ Administrator application as they provide an overview of how the system is
@@ -129,7 +166,7 @@
                 individual has strong understanding of data sources, indexes, data servers, jobs,
                 infosets, and actions. This list provides an overview as to how IBM StoredIQ
                 Administrator works: </p>
-            <ul class="- topic/ul " id="unique_4_Connect_42_ul_xvs_ylt_vjb" nd:nd-id="ul_xvs_ylt_vjb">
+            <ul class="- topic/ul " id="unique_7_Connect_42_ul_xvs_ylt_vjb" nd:nd-id="ul_xvs_ylt_vjb">
                 <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Viewing data servers and volumes</b>: Using IBM StoredIQ Administrator, the
                     Administrator can identify what data servers are deployed, their location, what
                     data is being managed, and the status of each data server in the system. Volume
@@ -166,48 +203,50 @@
                     number of identical documents in the system. You can create custom reports,
                     including Query Analysis Reports for e-discovery purposes, and automatically
                     email report notifications to administrators and other interested parties. </li>
-                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Auto-classification</b>: Automated document categorization, what IBM StoredIQ
-                    refers to as autoclassification models, integrates the IBM Content
-                    Classification's classification model into the IBM StoredIQ infoset-generation
-                    process. Data Experts can use IBM Content Classification to train a
-                    classification model, which is then registered with IBM StoredIQ Administrator.
-                    The registered classification model can be applied to an existing infoset in IBM
-                    StoredIQ Data Workbench to generate new metadata for the objects in the infoset.
-                    Metadata can be used in rule-based filters to create new infosets.</li>
-                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Cartridges</b>: Cartridges are compressed files that contain analysis logic.
-                    When you add a cartridge to IBM StoredIQ AppStack, it can detect new data in
-                    documents during indexing and make these new insights searchable. For example, a
-                    sensitive pattern cartridge can enable IBM StoredIQ to detect passport numbers,
-                    phone numbers, and other IDs. To apply the analysis logic contained in the
-                    cartridge, you must run a Step-up Analytics action that uses the cartridge on an
-                    infoset. IBM StoredIQ examines all documents in the infoset, applies the
-                    analytics, and then stores the analysis results in the IBM StoredIQ index.</li>
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="auto_classification">Auto-classification</term></b>: Automated
+                    document categorization, what IBM StoredIQ refers to as autoclassification
+                    models, integrates the IBM Content Classification's classification model into
+                    the IBM StoredIQ infoset-generation process. Data Experts can use IBM Content
+                    Classification to train a classification model, which is then registered with
+                    IBM StoredIQ Administrator. The registered classification model can be applied
+                    to an existing infoset in IBM StoredIQ Data Workbench to generate new metadata
+                    for the objects in the infoset. Metadata can be used in rule-based filters to
+                    create new infosets.</li>
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="catridges">Cartridges</term></b>: Cartridges are compressed
+                    files that contain analysis logic. When you add a cartridge to IBM StoredIQ
+                    AppStack, it can detect new data in documents during indexing and make these new
+                    insights searchable. For example, a sensitive pattern cartridge can enable IBM
+                    StoredIQ to detect passport numbers, phone numbers, and other IDs. To apply the
+                    analysis logic contained in the cartridge, you must run a Step-up Analytics
+                    action that uses the cartridge on an infoset. IBM StoredIQ examines all
+                    documents in the infoset, applies the analytics, and then stores the analysis
+                    results in the IBM StoredIQ index.</li>
                 <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Managing concepts</b>: Provides the ability to relate business concepts to
                     indexed data. </li>
                 <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Managing Mule scripts</b>: Helps you to create Mule scripts and upload script
                     packages. These Mule scripts are used by IBM StoredIQ Policy Manager to create
                     policies using the automation workflow. </li>
-                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">DataServer - Classic</b>: Data servers can be categorized in two types:
-                    DataServer - Classic and DataServer - Distributed. DataServer - Classic refers
-                    to the regular data servers. It uses either the current PostgreSQL or Lucene
-                    index as an index. </li>
-                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">DataServer - Distributed</b>: The distributed data server uses an
-                    Elasticsearch cluster instead of an embedded Postgres database. It increases the
-                    scalability and flexibility of the IBM StoredIQ deployment in a way that it can
-                    manage much larger amounts of data. Without adding more data servers, data that
-                    is managed by the IBM StoredIQ deployment can be increased by adding new nodes
-                    to the Elasticsearch cluster. Search queries perform better on DataServer -
-                    Distributed. </li>
-                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Connector API SDK</b>: A connector is a software component of IBM StoredIQ
-                    that is used to connect to a data source such as a network file system and
-                    access its data. Using IBM StoredIQ Connector API SDK, developers of other
-                    companies can develop connectors to new data sources outside the IBM StoredIQ
-                    development environment. These connectors can be integrated with a live IBM
-                    StoredIQ application to index, search, manage, and analyze data on the data
-                    source. </li>
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="dataserver_classic">DataServer - Classic</term></b>: Data
+                    servers can be categorized in two types: DataServer - Classic and DataServer -
+                    Distributed. DataServer - Classic refers to the regular data servers. It uses
+                    either the current PostgreSQL or Lucene index as an index. </li>
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="dataserver_distributed">DataServer - Distributed</term></b>:
+                    The distributed data server uses an Elasticsearch cluster instead of an embedded
+                    Postgres database. It increases the scalability and flexibility of the IBM
+                    StoredIQ deployment in a way that it can manage much larger amounts of data.
+                    Without adding more data servers, data that is managed by the IBM StoredIQ
+                    deployment can be increased by adding new nodes to the Elasticsearch cluster.
+                    Search queries perform better on DataServer - Distributed. </li>
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b "><term class="- topic/term " keyref="connector_api_sdk">Connector API SDK</term></b>: A connector is
+                    a software component of IBM StoredIQ that is used to connect to a data source
+                    such as a network file system and access its data. Using IBM StoredIQ Connector
+                    API SDK, developers of other companies can develop connectors to new data
+                    sources outside the IBM StoredIQ development environment. These connectors can
+                    be integrated with a live IBM StoredIQ application to index, search, manage, and
+                    analyze data on the data source. </li>
             </ul>
         </section>
-        <section class="- topic/section " id="unique_4_Connect_42_section_d5k_wmt_vjb" nd:nd-id="section_d5k_wmt_vjb">
+        <section class="- topic/section " id="unique_7_Connect_42_section_d5k_wmt_vjb" nd:nd-id="section_d5k_wmt_vjb">
             <title class="- topic/title ">IBM StoredIQ Data Workbench </title>
             <p class="- topic/p ">Big data is a pervasive problem, not a one-time occurrence. It is easy for most
                 companies to realize that big data is problematic, but it is hard to identify what
@@ -215,6 +254,7 @@
                 limits. IBM StoredIQ Data Workbench can help you learn about your data, make
                 educated decisions with your most valuable asset, and turn your company's most
                 dangerous risk into its most valuable asset. </p>
+            <fig class="- topic/fig " id="unique_7_Connect_42_fig_jm1_44z_vjb" nd:nd-id="fig_jm1_44z_vjb"><image class="- topic/image " format="png" href="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/Images/Image3.PNG" id="unique_7_Connect_42_image_c3l_44z_vjb" nd:nd-id="image_c3l_44z_vjb" keyref="image3" placement="inline"/></fig>
             <p class="- topic/p ">IBM StoredIQ Data Workbench is a data visualization and management tool that helps
                 you to actively manage your company's data. It helps you to determine how much data
                 you have, where it is, who owns it, and when it was last used. When you have a clear
@@ -222,7 +262,7 @@
                 you take control of data. You can make informed decisions about your data and act on
                 that knowledge by copying, copying to retention, or conducting a discovery export.
                 Here are just some examples of how you can use IBM StoredIQ Data Workbench. </p>
-            <ul class="- topic/ul " id="unique_4_Connect_42_ul_xsm_dnt_vjb" nd:nd-id="ul_xsm_dnt_vjb">
+            <ul class="- topic/ul " id="unique_7_Connect_42_ul_xsm_dnt_vjb" nd:nd-id="ul_xsm_dnt_vjb">
                 <li class="- topic/li ">You need to find all company email that is sent from or received by Eileen
                     Sideways (esideways@thecompany.com). You can use IBM StoredIQ Data Workbench to
                     find all email and then copy that data to a predefined repository. You can also
@@ -249,8 +289,8 @@
                     catalog.</li>
             </ul>
         </section>
-        <section class="- topic/section " id="unique_4_Connect_42_section_eyv_3nt_vjb" nd:nd-id="section_eyv_3nt_vjb">
-            <title class="- topic/title ">IBM StoredIQ Insights</title>
+        <section class="- topic/section " id="unique_7_Connect_42_section_eyv_3nt_vjb" nd:nd-id="section_eyv_3nt_vjb">
+            <title class="- topic/title "><term class="- topic/term " keyref="ibm_storediq_insights">IBM StoredIQ Insights</term></title>
             <p class="- topic/p ">IBM StoredIQ Insights provides dynamic and interactive filtering for your data with
                 easy access to all metadata and instant plain-text preview of document content for
                 full-text indexed volumes. </p>
@@ -264,17 +304,20 @@
                 server of the type DataServer - Distributed. In mixed deployments that have classic
                 and distributed data servers, only the content from distributed data servers will be
                 searchable. </p>
+            <fig class="- topic/fig " id="unique_7_Connect_42_fig_hz3_q4z_vjb" nd:nd-id="fig_hz3_q4z_vjb"><image class="- topic/image " format="png" href="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/Images/Image4.PNG" id="unique_7_Connect_42_image_vqv_q4z_vjb" nd:nd-id="image_vqv_q4z_vjb" keyref="image4" placement="inline"/></fig>
         </section>
-        <section class="- topic/section " id="unique_4_Connect_42_section_wss_mnt_vjb" nd:nd-id="section_wss_mnt_vjb">
+        <section class="- topic/section " id="unique_7_Connect_42_section_wss_mnt_vjb" nd:nd-id="section_wss_mnt_vjb">
             <title class="- topic/title ">IBM StoredIQ Policy Manager </title>
             <p class="- topic/p ">IBM StoredIQ Policy Manager allows users to run mature policies and processes at
-                scale across a wider range of data.The users can define and run systemwide policies,
-                focusing on the execution of the process rather than understanding or reviewing
-                affected data objects. Additionally, with reports of IBM StoredIQ Policy Manager,
-                you can record what actions were conducted, when they were conducted, and what data
-                was affected by the policy's execution. </p>
+                scale across a wider range of data.</p>
+            <fig class="- topic/fig " id="unique_7_Connect_42_fig_yvc_t4z_vjb" nd:nd-id="fig_yvc_t4z_vjb"><image class="- topic/image " format="png" href="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/Images/Image5.PNG" id="unique_7_Connect_42_image_zfs_t4z_vjb" nd:nd-id="image_zfs_t4z_vjb" keyref="image5" placement="inline"/></fig>
+            <p class="- topic/p ">The users can define and run systemwide policies, focusing on the execution of the
+                process rather than understanding or reviewing affected data objects. Additionally,
+                with reports of IBM StoredIQ Policy Manager, you can record what actions were
+                conducted, when they were conducted, and what data was affected by the policy's
+                execution. </p>
         </section>
-        <section class="- topic/section " id="unique_4_Connect_42_section_v4x_tnt_vjb" nd:nd-id="section_v4x_tnt_vjb">
+        <section class="- topic/section " id="unique_7_Connect_42_section_v4x_tnt_vjb" nd:nd-id="section_v4x_tnt_vjb">
             <title class="- topic/title ">IBM StoredIQ Desktop Data Collector </title>
             <p class="- topic/p ">IBM StoredIQ Desktop Data Collector (also referred to as desktop client indexes
                 desktops as volumes. The volumes appear in IBM StoredIQ Data Server and in IBM
@@ -284,7 +327,7 @@
                 targeted for later policy action. </p>
         </section>
     </conbody>
-</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="planning_for_deployment" oid="planning_for_deployment">
+</concept></concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="planning_for_deployment" oid="planning_for_deployment">
     <title class="- topic/title ">Planning for Deployment</title>
     <shortdesc class="- topic/shortdesc "/>
     <conbody class="- topic/body  concept/conbody ">
@@ -297,7 +340,7 @@
             manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also check
             the system requirements for StoredIQ for Legal at: Software Product Compatibility
             Reports: StoredIQ for Legal 2.0.3</p>
-        <section class="- topic/section " id="unique_5_Connect_42_section_hz1_j4t_vjb" nd:nd-id="section_hz1_j4t_vjb">
+        <section class="- topic/section " id="unique_8_Connect_42_section_hz1_j4t_vjb" nd:nd-id="section_hz1_j4t_vjb">
             <title class="- topic/title "> Generate customized reports with the SPCR tool </title>
             <p class="- topic/p "> Go to the page at Software Product Compatibility Reports to create a high-level
                 report for supported operating systems, related software, hypervisors, and supported
@@ -306,7 +349,7 @@
                 product. You can search for a product in all of the report types and reports are
                 generated based on your query values. The following report types are the most
                 commonly generated reports from software product compatibility reports:</p>
-            <ul class="- topic/ul " id="unique_5_Connect_42_ul_o22_l4t_vjb" nd:nd-id="ul_o22_l4t_vjb">
+            <ul class="- topic/ul " id="unique_8_Connect_42_ul_o22_l4t_vjb" nd:nd-id="ul_o22_l4t_vjb">
                 <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Detailed system requirements</b><p class="- topic/p ">When you select your product version for
                         the detailed system requirements report, you can set a report filter for
                         Operating system platforms, Product components, and Capabilities, including
@@ -324,42 +367,51 @@
             </ul>
         </section>
     </conbody>
-</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="open_virtual_appliance__ova__configuration_requirements" oid="open_virtual_appliance__ova__configuration_requirements">
-    <title class="- topic/title ">Open Virtual Appliance (OVA) configuration requirements </title>
+<concept class="- topic/topic concept/concept " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="open_virtual_appliance__ova__configuration_requirements" oid="open_virtual_appliance__ova__configuration_requirements">
+    <opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e766"/><opentopic-index:refID indexid="indexid-1355046945" value="application stacks:" class="- index/refid " id="d30e771"/><opentopic-index:refID indexid="indexid-1434068810" value="Each Elasticsearch node:" class="- index/refid " id="d30e776"/><title class="- topic/title ">Open Virtual Appliance (OVA) configuration requirements </title>
     <shortdesc class="- topic/shortdesc "/>
+    <prolog class="- topic/prolog ">
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <opentopic-index:index.entry value="data servers" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">data servers</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e766"/></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="application stacks" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">application stacks</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1355046945" value="application stacks:" class="- index/refid " id="d30e771"/></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="Each Elasticsearch node" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">Each Elasticsearch node</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1434068810" value="Each Elasticsearch node:" class="- index/refid " id="d30e776"/></opentopic-index:index.entry>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all
             fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a
             virtual infrastructure that meets the IBM StoredIQ hardware requirements.</p>
         <p class="- topic/p ">
             <b class="+ topic/ph hi-d/b ">Application stack</b></p>
-        <ul class="- topic/ul " id="unique_6_Connect_42_ul_ntw_bpt_vjb" nd:nd-id="ul_ntw_bpt_vjb">
+        <ul class="- topic/ul " id="unique_9_Connect_42_ul_ntw_bpt_vjb" nd:nd-id="ul_ntw_bpt_vjb">
             <li class="- topic/li "> vCPU: 2 </li>
             <li class="- topic/li "> Memory: 4 GB </li>
-            <li class="- topic/li ">Storage: <ul class="- topic/ul " id="unique_6_Connect_42_ul_wtk_fpt_vjb" nd:nd-id="ul_wtk_fpt_vjb">
+            <li class="- topic/li ">Storage: <ul class="- topic/ul " id="unique_9_Connect_42_ul_wtk_fpt_vjb" nd:nd-id="ul_wtk_fpt_vjb">
                     <li class="- topic/li ">Primary disk (vmdisk1): 21 GB </li>
                     <li class="- topic/li ">Data disk (vmdisk2): 10 GB</li>
                 </ul></li>
         </ul>
         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Gateway server</b></p>
-        <ul class="- topic/ul " id="unique_6_Connect_42_ul_ngj_3pt_vjb" nd:nd-id="ul_ngj_3pt_vjb">
+        <ul class="- topic/ul " id="unique_9_Connect_42_ul_ngj_3pt_vjb" nd:nd-id="ul_ngj_3pt_vjb">
             <li class="- topic/li ">vCPU: 4</li>
             <li class="- topic/li ">Memory: 8 GB </li>
-            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_6_Connect_42_ul_tf2_lpt_vjb" nd:nd-id="ul_tf2_lpt_vjb">
+            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_9_Connect_42_ul_tf2_lpt_vjb" nd:nd-id="ul_tf2_lpt_vjb">
                     <li class="- topic/li ">Primary disk (vmdisk1): 100 GB </li>
                     <li class="- topic/li ">Data disk (vmdisk2): 75 GB </li>
                     <li class="- topic/li ">Swap disk (vmdisk3): 40 - 100 GB </li>
                 </ul></li>
         </ul>
         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">DataServer - Classic</b></p>
-        <ul class="- topic/ul " id="unique_6_Connect_42_ul_eds_ppt_vjb" nd:nd-id="ul_eds_ppt_vjb">
+        <ul class="- topic/ul " id="unique_9_Connect_42_ul_eds_ppt_vjb" nd:nd-id="ul_eds_ppt_vjb">
             <li class="- topic/li ">vCPU: 4 Even though increasing the number of vCPUs increases performance, the actual
                 benefits depend on whether the specific host is oversubscribed or not. </li>
             <li class="- topic/li ">Memory: 16 GB While the minimum value works under light-load condition, as the load
                 increases, the data server quickly starts using swap space. For high load
                 situations, increasing RAM beyond 16 GB can benefit performance. Monitoring swap
                 usage can provide insight. </li>
-            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_6_Connect_42_ul_lwf_spt_vjb" nd:nd-id="ul_lwf_spt_vjb">
+            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_9_Connect_42_ul_lwf_spt_vjb" nd:nd-id="ul_lwf_spt_vjb">
                     <li class="- topic/li ">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB <p class="- topic/p ">This virtual disk has
                             an associated VMDK that contains the IBM StoredIQ operating code. Do not
                             change its size. </p><note class="- topic/note " type="attention"> If you delete the primary
@@ -393,10 +445,10 @@
             performance. In the situations where there is a high load on the system, the IOPS that
             is used can reach up to 7000 with main write operations.</p>
         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Data Server - Distributed</b></p>
-        <ul class="- topic/ul " id="unique_6_Connect_42_ul_zp4_vqt_vjb" nd:nd-id="ul_zp4_vqt_vjb">
+        <ul class="- topic/ul " id="unique_9_Connect_42_ul_zp4_vqt_vjb" nd:nd-id="ul_zp4_vqt_vjb">
             <li class="- topic/li ">vCPU: 4 </li>
             <li class="- topic/li ">Memory: 16 GB </li>
-            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_6_Connect_42_ul_pxv_wqt_vjb" nd:nd-id="ul_pxv_wqt_vjb">
+            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_9_Connect_42_ul_pxv_wqt_vjb" nd:nd-id="ul_pxv_wqt_vjb">
                     <li class="- topic/li ">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB </li>
                     <li class="- topic/li ">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB </li>
                     <li class="- topic/li ">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</li>
@@ -407,10 +459,10 @@
             with at least one node. If you deploy a cluster with more nodes, each of the
             Elasticsearch nodes must meet the listed requirements.</p>
         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Each Elasticsearch node</b></p>
-        <ul class="- topic/ul " id="unique_6_Connect_42_ul_smg_brt_vjb" nd:nd-id="ul_smg_brt_vjb">
+        <ul class="- topic/ul " id="unique_9_Connect_42_ul_smg_brt_vjb" nd:nd-id="ul_smg_brt_vjb">
             <li class="- topic/li "> vCPU: 1 </li>
             <li class="- topic/li ">Memory: 32 GB </li>
-            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_6_Connect_42_ul_jdj_crt_vjb" nd:nd-id="ul_jdj_crt_vjb">
+            <li class="- topic/li ">Storage:<ul class="- topic/ul " id="unique_9_Connect_42_ul_jdj_crt_vjb" nd:nd-id="ul_jdj_crt_vjb">
                     <li class="- topic/li ">Primary disk (vmdisk1): 100 GB </li>
                     <li class="- topic/li ">Data disk (vmdisk2): 1 TB </li>
                 </ul></li>
@@ -424,79 +476,123 @@
         <p class="- topic/p ">The data disk (vmdisk2) can be resized according to expectations on the amount of harvest
             data to be stored. </p>
     </conbody>
-</concept><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic       reference/reference " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="network_and_port_requirements" oid="network_and_port_requirements">
-    <title class="- topic/title ">Network and port requirements</title>
+</concept><reference class="- topic/topic       reference/reference " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="network_and_port_requirements" oid="network_and_port_requirements">
+    <opentopic-index:refID indexid="indexid2569369" value="TCP:" class="- index/refid " id="d30e960"/><opentopic-index:refID indexid="indexid690048304" value="TCP:port ranges for the firewall:" class="- index/refid " id="d30e964"/><opentopic-index:refID indexid="indexid-675271265" value="default open ports:" class="- index/refid " id="d30e969"/><title class="- topic/title ">Network and port requirements</title>
     <shortdesc class="- topic/shortdesc "/>
+    <prolog class="- topic/prolog ">
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <opentopic-index:index.entry value="TCP" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">TCP</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid2569369" value="TCP:" class="- index/refid " id="d30e960"/><opentopic-index:index.entry value="port ranges for the firewall" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">port ranges for the firewall</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid690048304" value="TCP:port ranges for the firewall:" class="- index/refid " id="d30e964"/></opentopic-index:index.entry></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="default open ports" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">default open ports</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-675271265" value="default open ports:" class="- index/refid " id="d30e969"/></opentopic-index:index.entry>
+            </keywords>
+        </metadata>
+    </prolog>
     <refbody class="- topic/body        reference/refbody ">
-        <table class="- topic/table " colsep="1" frame="all" id="unique_7_Connect_42_table_uth_jst_vjb" nd:nd-id="table_uth_jst_vjb" rowsep="1">
+        <section class="- topic/section " id="unique_10_Connect_42_section_jn4_skz_vjb" nd:nd-id="section_jn4_skz_vjb">
+            <p class="- topic/p ">For proper communication, the IBM StoredIQ components must be able to connect to each
+                other. You must enable network connectivity from the following locations:</p>
+            <ul class="- topic/ul " id="unique_10_Connect_42_ul_qyy_tkz_vjb" nd:nd-id="ul_qyy_tkz_vjb">
+                <li class="- topic/li ">The data server IP address to the gateway IP address on port 11103</li>
+                <li class="- topic/li ">The gateway IP address to and from the application stack IP address on port 8765
+                    and 5432</li>
+                <li class="- topic/li ">Ports 80, 443, and 22 from the administrative workstation to the application
+                    stack and data server IP addresses</li>
+                <li class="- topic/li ">Port 22 from the administrative workstation to the gateway IP address. </li>
+            </ul>
+        </section>
+        <section class="- topic/section " id="unique_10_Connect_42_section_ebj_wkz_vjb" nd:nd-id="section_ebj_wkz_vjb">
+            <title class="- topic/title ">TCP: port ranges for the firewall</title>
+            <p class="- topic/p ">To ensure the network access for desktop volumes, the following port ranges must be
+                open through a firewall:</p>
+            <ul class="- topic/ul " id="unique_10_Connect_42_ul_ft1_ykz_vjb" nd:nd-id="ul_ft1_ykz_vjb">
+                <li class="- topic/li "> 21000-21004 </li>
+                <li class="- topic/li ">21100-21101 </li>
+                <li class="- topic/li ">21110-21130 </li>
+                <li class="- topic/li ">21200-21204 </li>
+            </ul>
+        </section>
+        <section class="- topic/section " id="unique_10_Connect_42_section_wvx_zkz_vjb" nd:nd-id="section_wvx_zkz_vjb">
+            <title class="- topic/title ">Default open ports </title>
+            <p class="- topic/p ">The following ports are open by default on the IBM StoredIQ:</p>
+            <ul class="- topic/ul " id="unique_10_Connect_42_ul_vwb_dlz_vjb" nd:nd-id="ul_vwb_dlz_vjb">
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">SSH port 22</b><p class="- topic/p ">By default, port 22 is open on all IBM StoredIQ hosts. The
+                        port is used for Secure Shell (SSH) communication and allows remote
+                        administration access to the VM. In general, traffic is encrypted using
+                        password authentication. To add a layer of security, you can establish
+                        key-based authentication for passwordless SSH logins to any of the IBM
+                        StoredIQ nodes in your environment as described in “Configuring SSH
+                        key-based authentication” on page 45. </p></li>
+            </ul>
+        </section>
+        <table class="- topic/table " colsep="1" frame="all" id="unique_10_Connect_42_table_uth_jst_vjb" nd:nd-id="table_uth_jst_vjb" rowsep="1">
             <title class="- topic/title ">Default open ports on the AppStack</title>
             <tgroup class="- topic/tgroup " cols="2">
-                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;10:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:50%;"/>
-                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;11:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:50%;"/>
+                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;54:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:50%;"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;55:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:50%;"/>
                 <thead class="- topic/thead ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;14:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port Number</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;15:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;58:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port Number</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;59:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
                     </row>
                 </thead>
                 <tbody class="- topic/tbody ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;20:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;21:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;64:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;65:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;24:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;25:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;68:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;69:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;28:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;29:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;72:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;73:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
-        <table class="- topic/table " colsep="1" frame="all" id="unique_7_Connect_42_table_kym_4st_vjb" nd:nd-id="table_kym_4st_vjb" rowsep="1">
+        <table class="- topic/table " colsep="1" frame="all" id="unique_10_Connect_42_table_kym_4st_vjb" nd:nd-id="table_kym_4st_vjb" rowsep="1">
             <title class="- topic/title ">Default open ports on the IBM StoredIQ data server</title>
             <tgroup class="- topic/tgroup " cols="3">
-                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:3;37:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
-                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:4;38:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
-                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:5;39:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:3;81:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:4;82:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:5;83:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
                 <thead class="- topic/thead ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:9;42:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port Number</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:10;43:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:11;44:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Service</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:9;86:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port Number</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:10;87:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:11;88:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Service</entry>
                     </row>
                 </thead>
                 <tbody class="- topic/tbody ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:12;49:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:13;50:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:14;51:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-ssh</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:12;93:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:13;94:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:14;95:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-ssh</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:15;54:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:16;55:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:17;56:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-web</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:15;98:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:16;99:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:17;100:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-web</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:18;59:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:19;60:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:20;61:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-https (UI and web Services APIs)</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:18;103:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:19;104:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:20;105:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-https (UI and web Services APIs)</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:21;64:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11103</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" morerows="1" xtrc="entry:22;65:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="2">tcptcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" morerows="1" xtrc="entry:23;66:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="2">PROD-transport (IBM StoredIQ transport services;
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:21;108:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11103</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" morerows="1" xtrc="entry:22;109:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="2">tcptcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" morerows="1" xtrc="entry:23;110:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="2">PROD-transport (IBM StoredIQ transport services;
                             communication between the gateway and the data server) </entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:24;70:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11104</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:24;114:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11104</entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
-        <section class="- topic/section " id="unique_7_Connect_42_section_smv_xst_vjb" nd:nd-id="section_smv_xst_vjb"><title class="- topic/title ">Enable or disable ports or services on the IBM
+        <section class="- topic/section " id="unique_10_Connect_42_section_smv_xst_vjb" nd:nd-id="section_smv_xst_vjb"><title class="- topic/title ">Enable or disable ports or services on the IBM
                 StoredIQ data server</title><p class="- topic/p ">To manage ports, you can use the
                     <codeph class="+ topic/ph pr-d/codeph ">/usr/local/storediq/bin/util/port_handler.pyc</codeph> script with the
                 appropriate
@@ -511,123 +607,123 @@
                 'service_name'</cmdname><p class="- topic/p "> To disable a specific service, for example, to disable
                 HTTPS
             services:</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve">python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'</codeblock></section>
-        <table class="- topic/table " colsep="1" frame="all" id="unique_7_Connect_42_table_mr5_15t_vjb" nd:nd-id="table_mr5_15t_vjb" rowsep="1">
+        <table class="- topic/table " colsep="1" frame="all" id="unique_10_Connect_42_table_mr5_15t_vjb" nd:nd-id="table_mr5_15t_vjb" rowsep="1">
             <title class="- topic/title ">Default open ports on the nodes in the Elasticsearch cluster</title>
             <tgroup class="- topic/tgroup " cols="3">
-                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:6;93:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
-                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:7;94:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
-                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:8;95:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:6;137:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:7;138:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:8;139:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
                 <thead class="- topic/thead ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:25;98:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port number</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:26;99:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:27;100:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Service</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:25;142:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port number</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:26;143:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:27;144:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Service</entry>
                     </row>
                 </thead>
                 <tbody class="- topic/tbody ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:28;105:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">21</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:29;106:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:30;107:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">ftp</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:28;149:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">21</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:29;150:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:30;151:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">ftp</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:31;110:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:32;111:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:33;112:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">sshd</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:31;154:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:32;155:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:33;156:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">sshd</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:34;115:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:35;116:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:36;117:33" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita"/>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:34;159:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:35;160:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:36;161:33" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita"/>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:37;120:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:38;121:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:39;122:33" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita"/>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:37;164:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:38;165:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:39;166:33" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita"/>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:40;125:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">8888</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:41;126:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" xtrc="entry:42;127:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">SimpleHTTPServer (used for copying the siqelasticsearch.yml
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:40;169:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">8888</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:41;170:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" xtrc="entry:42;171:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">SimpleHTTPServer (used for copying the siqelasticsearch.yml
                             configuration file from the Elasticsearch node to the data
                             server)</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:43;132:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">9200</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:44;133:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp6</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7" xtrc="entry:45;134:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">ocker-proxy (listening for REST requests) You can restrict access to
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:43;176:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">9200</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:44;177:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp6</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7" xtrc="entry:45;178:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">ocker-proxy (listening for REST requests) You can restrict access to
                             this port by either enabling Search Guard or by setting up a firewall.
                             For more information, see “Securing Elasticsearch cluster communication
                             with Search Guard” on page 51 or “Restricting access to port 9200 on
                             Elasticsearch nodes” on page 52. </entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:46;141:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">9300</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:47;142:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp6</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8" xtrc="entry:48;143:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">docker-proxy (internode communication</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:46;185:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">9300</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:47;186:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp6</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8" xtrc="entry:48;187:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">docker-proxy (internode communication</entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
-        <table class="- topic/table " colsep="1" frame="all" id="unique_7_Connect_42_table_r3k_m5t_vjb" nd:nd-id="table_r3k_m5t_vjb" rowsep="1">
+        <table class="- topic/table " colsep="1" frame="all" id="unique_10_Connect_42_table_r3k_m5t_vjb" nd:nd-id="table_r3k_m5t_vjb" rowsep="1">
             <title class="- topic/title ">Default open ports on the IBM StoredIQ gateway</title>
             <tgroup class="- topic/tgroup " cols="3">
-                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:9;151:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
-                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:10;152:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
-                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:11;153:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:9;195:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:10;196:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
+                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:11;197:65" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" style="width:33.3333%;"/>
                 <thead class="- topic/thead ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:49;156:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port number</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:50;157:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:51;158:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Service</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:49;200:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Port number</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:50;201:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Protocol</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:51;202:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">Service</entry>
                     </row>
                 </thead>
                 <tbody class="- topic/tbody ">
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:52;163:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:53;164:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:54;165:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-ssh</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:52;207:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">22</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:53;208:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:54;209:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-ssh</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:55;168:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:56;169:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:57;170:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-web</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:55;212:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">80</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:56;213:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:57;214:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-web</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:58;173:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:59;174:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:60;175:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-https (UI and Web Services APIs)</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:58;217:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">443</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:59;218:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:60;219:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-https (UI and Web Services APIs)</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:61;178:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">5432</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:62;179:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:63;180:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-postgres </entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:61;222:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">5432</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:62;223:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:63;224:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">PROD-postgres </entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:64;183:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">5434</entry>
-                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" morerows="5" xtrc="entry:65;184:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="6">tcp</entry>
-                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" morerows="5" xtrc="entry:66;185:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="6">PROD-transport (IBM StoredIQ transport services;
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:64;227:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">5434</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" morerows="5" xtrc="entry:65;228:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="6">tcp</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" morerows="5" xtrc="entry:66;229:45" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita" rowspan="6">PROD-transport (IBM StoredIQ transport services;
                             communication between the gateway and the data server)</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:67;189:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">8765</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:67;233:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">8765</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:68;192:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">7766</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:68;236:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">7766</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:69;195:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11102</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:69;239:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11102</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10" xtrc="entry:70;198:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11103</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10" xtrc="entry:70;242:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11103</entry>
                     </row>
                     <row class="- topic/row ">
-                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="11" xtrc="entry:71;201:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11104</entry>
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="11" xtrc="entry:71;245:32" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/network_and_port_requirements.dita">11104</entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
-        <section class="- topic/section " id="unique_7_Connect_42_section_br4_v5t_vjb" nd:nd-id="section_br4_v5t_vjb">
+        <section class="- topic/section " id="unique_10_Connect_42_section_br4_v5t_vjb" nd:nd-id="section_br4_v5t_vjb">
             <title class="- topic/title ">Supported chain and rules on the IBM StoredIQ gateway </title>
             <p class="- topic/p ">In iptables, the following firewall and chain rules are defined: </p>
             <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve">'PROD-transport':['5434','8765','7766','11102','11103','11104'],
@@ -648,9 +744,11 @@
 </codeblock>
         </section>
     </refbody>
-</reference><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic task/task " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="open_ports_for_desktop_client_access_to_the_data_server" oid="open_ports_for_desktop_client_access_to_the_data_server">
-    <title class="- topic/title ">Open ports for desktop client access to the data server</title>
+</reference><task class="- topic/topic task/task " id="unique_11" topicrefclass="- map/topicref " nd:nd-id="open_ports_for_desktop_client_access_to_the_data_server" oid="open_ports_for_desktop_client_access_to_the_data_server">
+    <opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e1489"/><opentopic-index:refID indexid="indexid-982480280" value="ports:" class="- index/refid " id="d30e1494"/><title class="- topic/title ">Open ports for desktop client access to the data server</title>
     <shortdesc class="- topic/shortdesc "/>
+    <prolog class="- topic/prolog "><metadata class="- topic/metadata "><keywords class="- topic/keywords "><opentopic-index:index.entry value="data servers" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">data servers</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid " id="d30e1489"/></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="ports" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">ports</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-982480280" value="ports:" class="- index/refid " id="d30e1494"/></opentopic-index:index.entry></keywords></metadata></prolog>
     <taskbody class="- topic/body task/taskbody ">
         <context class="- topic/section task/context ">
             <p class="- topic/p ">To open ports for desktop client access to the data server on OVA deployed systems,
@@ -692,15 +790,15 @@
             </step>
         </steps>
     </taskbody>
-</task><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="environment_sizing_guidelines" oid="environment_sizing_guidelines">
+</task><concept class="- topic/topic concept/concept " id="unique_12" topicrefclass="- map/topicref " nd:nd-id="environment_sizing_guidelines" oid="environment_sizing_guidelines">
     <title class="- topic/title ">Environment sizing guidelines </title>
     <shortdesc class="- topic/shortdesc ">To size an environment precisely, you must understand the factors such as harvest
         frequency, complexity of the source, and use case scenarios that drive application use and
         action execution. </shortdesc>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">The general design guidelines for IBM StoredIQ are as follows: </p>
-        <ul class="- topic/ul " id="unique_9_Connect_42_ul_y2t_kwt_vjb" nd:nd-id="ul_y2t_kwt_vjb">
-            <li class="- topic/li ">For data servers of the type DataServer - Classic: <ul class="- topic/ul " id="unique_9_Connect_42_ul_lm3_lwt_vjb" nd:nd-id="ul_lm3_lwt_vjb">
+        <ul class="- topic/ul " id="unique_12_Connect_42_ul_y2t_kwt_vjb" nd:nd-id="ul_y2t_kwt_vjb">
+            <li class="- topic/li ">For data servers of the type DataServer - Classic: <ul class="- topic/ul " id="unique_12_Connect_42_ul_lm3_lwt_vjb" nd:nd-id="ul_lm3_lwt_vjb">
                     <li class="- topic/li ">One data server for up to 30 TBs of data (which can vary based on the number
                         of volumes, objects per volume, and object types).</li>
                     <li class="- topic/li ">Up to 500 volumes per data server.<note class="- topic/note " type="tip"> When you're sizing an
@@ -762,16 +860,21 @@
                 Network connections with latency greater than 10 ms and bandwidth of at least 2+
                 Mbps are acceptable. </li>
         </ul>
-        <section class="- topic/section " id="unique_9_Connect_42_section_i5x_vwt_vjb" nd:nd-id="section_i5x_vwt_vjb">
+    </conbody>
+</concept><concept class="- topic/topic concept/concept " id="unique_13" topicrefclass="- map/topicref " nd:nd-id="stack_provisioning_prerequisites" oid="stack_provisioning_prerequisites">
+    <title class="- topic/title ">Stack-provisioning prerequisites</title>
+    <shortdesc class="- topic/shortdesc "/>
+    <conbody class="- topic/body  concept/conbody ">
+        <section class="- topic/section " id="unique_13_Connect_42_section_i5x_vwt_vjb" nd:nd-id="section_i5x_vwt_vjb">
             <title class="- topic/title ">Stack-provisioning prerequisites</title>
             <p class="- topic/p ">Before a deployment, verify that you meet these prerequisites. </p>
-            <ul class="- topic/ul " id="unique_9_Connect_42_ul_flq_xwt_vjb" nd:nd-id="ul_flq_xwt_vjb">
+            <ul class="- topic/ul " id="unique_13_Connect_42_ul_flq_xwt_vjb" nd:nd-id="ul_flq_xwt_vjb">
                 <li class="- topic/li "> At least one physical server with sufficient processor, RAM, and hard disk
                     configuration for the planned management project. </li>
                 <li class="- topic/li ">VMware ESX or ESXi on CD/DVD or USB drive. </li>
                 <li class="- topic/li ">IP addresses, cables, and physical switch ports for at least the ESXi/ESX
                     interface, one data server, one gateway server, and one application stack. </li>
-                <li class="- topic/li ">Network connectivity that is enabled from the following locations: <ul class="- topic/ul " id="unique_9_Connect_42_ul_mxs_zwt_vjb" nd:nd-id="ul_mxs_zwt_vjb">
+                <li class="- topic/li ">Network connectivity that is enabled from the following locations: <ul class="- topic/ul " id="unique_13_Connect_42_ul_mxs_zwt_vjb" nd:nd-id="ul_mxs_zwt_vjb">
                         <li class="- topic/li ">The data server IP address to the gateway IP address on port 11103 </li>
                         <li class="- topic/li ">The gateway IP address to and from the application stack IP address on
                             port 8765 and 5432 </li>
@@ -787,8 +890,16 @@
             </ul>
         </section>
     </conbody>
-</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="licence_usage_metrics" oid="licence_usage_metrics">
-    <title class="- topic/title ">Licence usage metrics</title>
+</concept><concept class="- topic/topic concept/concept " id="unique_14" topicrefclass="- map/topicref " nd:nd-id="licence_usage_metrics" oid="licence_usage_metrics">
+    <opentopic-index:refID indexid="indexid69757808" value="ILMT:" class="- index/refid " id="d30e1719"/><opentopic-index:refID indexid="indexid-853924033" value="ILMT:IBM Software License Metric Tag (SLMT):" class="- index/refid " id="d30e1723"/><title class="- topic/title ">Licence usage metrics</title>
+    <prolog class="- topic/prolog ">
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <opentopic-index:index.entry value="ILMT" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">ILMT</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid69757808" value="ILMT:" class="- index/refid " id="d30e1719"/><opentopic-index:index.entry value="IBM Software License Metric Tag (SLMT)" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">IBM Software License Metric
+                    Tag (SLMT)</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-853924033" value="ILMT:IBM Software License Metric Tag (SLMT):" class="- index/refid " id="d30e1723"/></opentopic-index:index.entry></opentopic-index:index.entry>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">Using the IBM License Metric Tool, you can generate license consumption reports that
             count IBM StoredIQ license usage. </p>
@@ -821,7 +932,7 @@
         &lt;/Period&gt;
  &lt;/Metric&gt;
 </codeblock>
-        <section class="- topic/section " id="unique_10_Connect_42_section_kzc_cyt_vjb" nd:nd-id="section_kzc_cyt_vjb">
+        <section class="- topic/section " id="unique_14_Connect_42_section_kzc_cyt_vjb" nd:nd-id="section_kzc_cyt_vjb">
             <title class="- topic/title ">Integration with IBM License Metric Tool</title>
             <p class="- topic/p ">Versions of IBM License Metric Tool (ILMT) that support IBM Software License Metric
                 Tag (SLMT) can generate license consumption reports. An ILMT agent can scan in
@@ -835,13 +946,21 @@
                 </xref></p>
         </section>
     </conbody>
-</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_11" topicrefclass="- map/topicref " nd:nd-id="security" oid="security">
-    <title class="- topic/title ">Security</title>
+</concept><concept class="- topic/topic concept/concept " id="unique_15" topicrefclass="- map/topicref " nd:nd-id="security" oid="security">
+    <opentopic-index:refID indexid="indexid66900724" value="FIPS:" class="- index/refid " id="d30e1785"/><opentopic-index:refID indexid="indexid-555034946" value="default user accounts:" class="- index/refid " id="d30e1790"/><title class="- topic/title ">Security</title>
     <shortdesc class="- topic/shortdesc ">Plan and implement specific security measures to protect the application and the data
         it manages, especially when you deploy IBM StoredIQ into sensitive environments.</shortdesc>
+    <prolog class="- topic/prolog ">
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <opentopic-index:index.entry value="FIPS" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">FIPS</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid66900724" value="FIPS:" class="- index/refid " id="d30e1785"/></opentopic-index:index.entry>
+                <opentopic-index:index.entry value="default user accounts" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">default user accounts</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-555034946" value="default user accounts:" class="- index/refid " id="d30e1790"/></opentopic-index:index.entry>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing. </p>
-        <section class="- topic/section " id="unique_11_Connect_42_section_yrd_lyt_vjb" nd:nd-id="section_yrd_lyt_vjb">
+        <section class="- topic/section " id="unique_15_Connect_42_section_yrd_lyt_vjb" nd:nd-id="section_yrd_lyt_vjb">
             <title class="- topic/title ">Federal Information Processing Standard (FIPS) </title>
             <p class="- topic/p ">FIPS is a standard recommended by the National Institute of Standards and Technology
                 (NIST) and the US Federal Government. It ensures certain security standards are met
@@ -851,7 +970,7 @@
                 communication can be enabled without FIPS. If FIPS is enabled, IBM StoredIQ uses
                 FIPS compliant versions of OpenSSL.</p>
         </section>
-        <section class="- topic/section " id="unique_11_Connect_42_section_w3j_myt_vjb" nd:nd-id="section_w3j_myt_vjb">
+        <section class="- topic/section " id="unique_15_Connect_42_section_w3j_myt_vjb" nd:nd-id="section_w3j_myt_vjb">
             <title class="- topic/title ">Secure communication and encryption of data in motion</title>
             <p class="- topic/p ">In a production environment, you should configure or install certificates on the
                 AppStack to enable HTTPS communication and to enable encryption of data in motion
@@ -885,17 +1004,8 @@
                 of key and certificate files. However, if you run the utilities for enabling
                 stunnel, you might need to make the respective configuration changes again.</p>
         </section>
-        <section class="- topic/section " id="unique_11_Connect_42_section_ghy_vyt_vjb" nd:nd-id="section_ghy_vyt_vjb">
-            <title class="- topic/title ">Encryption of data at rest</title>
-            <p class="- topic/p ">Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the
-                Elasticsearch indexes are stored is encrypted by default. IBM StoredIQ uses Linux
-                Unified Key Setup (LUKS) for disk encryption. For details about key management, see
-                “Key and certificate management” on page 41. </p>
-            <p class="- topic/p ">Optionally, you can encrypt the application data on the IBM StoredIQ application
-                stack. For more information, see “Enabling encryption of IBM StoredIQ AppStack
-                application data” on page 50. </p>
-        </section>
-        <section class="- topic/section " id="unique_11_Connect_42_section_t35_xyt_vjb" nd:nd-id="section_t35_xyt_vjb">
+        
+        <section class="- topic/section " id="unique_15_Connect_42_section_t35_xyt_vjb" nd:nd-id="section_t35_xyt_vjb">
             <title class="- topic/title ">Network isolation </title>
             <p class="- topic/p ">If full-text harvesting and Step-up Analytics actions (cartridges) are applied,
                 Elasticsearch indexes can contain potentially sensitive content. Therefore, you
@@ -906,7 +1016,7 @@
             <p class="- topic/p ">Also, any data servers and the gateway should be deployed in an isolated network
                 location to allow for communication with authorized clients only. </p>
         </section>
-        <section class="- topic/section " id="unique_11_Connect_42_section_is3_1zt_vjb" nd:nd-id="section_is3_1zt_vjb">
+        <section class="- topic/section " id="unique_15_Connect_42_section_is3_1zt_vjb" nd:nd-id="section_is3_1zt_vjb">
             <title class="- topic/title ">Access control </title>
             <p class="- topic/p ">The following administrative accounts are required. The builder and siqadmin accounts
                 are IBM StoredIQ-specific accounts. For more information about these accounts, see
@@ -924,46 +1034,46 @@
                 for the siqadmin account during the configuration process when you start the VM for
                 the first time. You can change this password anytime.</p>
         </section>
-        <section class="- topic/section " id="unique_11_Connect_42_section_x3l_3zt_vjb" nd:nd-id="section_x3l_3zt_vjb">
+        <section class="- topic/section " id="unique_15_Connect_42_section_x3l_3zt_vjb" nd:nd-id="section_x3l_3zt_vjb">
             <title class="- topic/title ">Default user accounts </title>
             <p class="- topic/p ">IBM StoredIQ comes with a set of default user accounts. </p>
             <p class="- topic/p ">For security reasons, change the passwords for these default accounts after the
                 installation is complete so that they are unique and different from the default
                 values. The new password must be 8 to 64 characters long and must contain characters
                 from at least three of these categories: </p>
-            <ul class="- topic/ul " id="unique_11_Connect_42_ul_jvx_jzt_vjb" nd:nd-id="ul_jvx_jzt_vjb">
+            <ul class="- topic/ul " id="unique_15_Connect_42_ul_jvx_jzt_vjb" nd:nd-id="ul_jvx_jzt_vjb">
                 <li class="- topic/li ">Uppercase letters: <userinput class="+ topic/ph sw-d/userinput ">A - Z </userinput></li>
                 <li class="- topic/li ">Lowercase letters: <userinput class="+ topic/ph sw-d/userinput ">a - z </userinput></li>
                 <li class="- topic/li ">Digits: <userinput class="+ topic/ph sw-d/userinput ">0 - 9</userinput></li>
                 <li class="- topic/li ">Punctuation marks or special characters: <userinput class="+ topic/ph sw-d/userinput ">. : = * ˆ / $ # _ + @ &amp;
                         % Account </userinput></li>
             </ul>
-            <table class="- topic/table " colsep="1" frame="all" id="unique_11_Connect_42_table_zhz_4zt_vjb" nd:nd-id="table_zhz_4zt_vjb" rowsep="1">
+            <table class="- topic/table " colsep="1" frame="all" id="unique_15_Connect_42_table_zhz_4zt_vjb" nd:nd-id="table_zhz_4zt_vjb" rowsep="1">
                 <title class="- topic/title "/>
                 <tgroup class="- topic/tgroup " cols="3">
-                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;109:69" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita" style="width:33.3333%;"/>
-                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;110:69" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita" style="width:33.3333%;"/>
-                    <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:3;111:69" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita" style="width:33.3333%;"/>
+                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;117:69" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita" style="width:33.3333%;"/>
+                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;118:69" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita" style="width:33.3333%;"/>
+                    <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:3;119:69" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita" style="width:33.3333%;"/>
                     <thead class="- topic/thead ">
                         <row class="- topic/row ">
-                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;114:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Account</entry>
-                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;115:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Default Password</entry>
-                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:3;116:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Description</entry>
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;122:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Account</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;123:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Default Password</entry>
+                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:3;124:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Description</entry>
                         </row>
                     </thead>
                     <tbody class="- topic/tbody ">
                         <row class="- topic/row ">
-                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:4;121:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">admin</entry>
-                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:5;122:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">admin</entry>
-                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:6;123:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Administrative account for accessing IBM StoredIQ Data Server.
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:4;129:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">admin</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:5;130:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">admin</entry>
+                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:6;131:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Administrative account for accessing IBM StoredIQ Data Server.
                                 Use this account for the initial setup of the data server and to
                                 create further administrative accounts for routine administration.
-                                Change the password in IBM StoredIQ Data Server under <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;126:100" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Administration</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Configuration</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Manage users</uicontrol></menucascade>. </entry>
+                                Change the password in IBM StoredIQ Data Server under <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;134:100" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Administration</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Configuration</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Manage users</uicontrol></menucascade>. </entry>
                         </row>
                         <row class="- topic/row ">
-                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:7;133:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">audituser</entry>
-                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:8;134:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Passw0rd!</entry>
-                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:9;135:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:7;141:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">audituser</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:8;142:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Passw0rd!</entry>
+                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:9;143:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
                                 <p class="- topic/p ">Account for accessing the audit database on the AppStack.</p>
                                 <p class="- topic/p "> Change the password by running the
                                         <cmdname class="+ topic/keyword sw-d/cmdname ">change_audituser_password</cmdname> script as
@@ -971,9 +1081,9 @@
                             </entry>
                         </row>
                         <row class="- topic/row ">
-                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:10;143:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">builder</entry>
-                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:11;144:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">None. Password is set during initial configuration.</entry>
-                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:12;145:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:10;151:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">builder</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:11;152:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">None. Password is set during initial configuration.</entry>
+                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:12;153:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
                                 <p class="- topic/p ">Account for accessing the report database on the AppStack.</p>
                                 <p class="- topic/p "> Change the password by running the
                                         <cmdname class="+ topic/keyword sw-d/cmdname ">change_reportuser_password</cmdname> script as
@@ -981,9 +1091,9 @@
                             </entry>
                         </row>
                         <row class="- topic/row ">
-                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:13;153:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">reportuser</entry>
-                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:14;154:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">St0red1q</entry>
-                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:15;155:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:13;161:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">reportuser</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:14;162:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">St0red1q</entry>
+                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:15;163:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
                                 <p class="- topic/p ">Account for accessing the report database on the AppStack.</p>
                                 <p class="- topic/p ">Change the password by running the
                                         <cmdname class="+ topic/keyword sw-d/cmdname ">change_reportuser_password</cmdname> script as
@@ -991,21 +1101,18 @@
                             </entry>
                         </row>
                         <row class="- topic/row ">
-                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:16;163:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">siqadmin</entry>
-                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:17;164:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Passw0rd!</entry>
-                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" xtrc="entry:18;165:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:16;171:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">siqadmin</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:17;172:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">Passw0rd!</entry>
+                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" xtrc="entry:18;173:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
                                 <p class="- topic/p ">Administrative account for managing the AppStack server. For more
                                     information, see the administration guide. </p>
-                                <p class="- topic/p ">With new installations, you are prompted for a new password
-                                    during the initial configuration of the AppStack. In updated
-                                    deployments, change the password by using the Linux
-                                        <cmdname class="+ topic/keyword sw-d/cmdname ">passwd</cmdname> command.</p>
+                                
                             </entry>
                         </row>
                         <row class="- topic/row ">
-                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:19;175:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">superadmin</entry>
-                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:20;176:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">admin</entry>
-                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7" xtrc="entry:21;177:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:19;183:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">superadmin</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:20;184:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">admin</entry>
+                            <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7" xtrc="entry:21;185:36" xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/security.dita">
                                 <p class="- topic/p ">Administrative account for accessing IBM StoredIQ Administrator
                                     and IBM StoredIQ Data Server. Use this account for the initial
                                     setup of IBM StoredIQ and to create further administrative
@@ -1026,15 +1133,19 @@
             </table>
         </section>
     </conbody>
-</concept><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic task/task " id="unique_12" topicrefclass="- map/topicref " nd:nd-id="deploying_ibm_storediq" oid="deploying_ibm_storediq">
+</concept></concept><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic task/task " id="unique_16" topicrefclass="- map/topicref " nd:nd-id="deploying_ibm_storediq" oid="deploying_ibm_storediq">
     <title class="- topic/title ">Deploying IBM StoredIQ</title>
+    <shortdesc class="- topic/shortdesc ">IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual
+        host environment. </shortdesc>
+<task class="- topic/topic task/task " id="unique_17" topicrefclass="- map/topicref " nd:nd-id="deploying_the_virtual_appliances_0" oid="deploying_the_virtual_appliances_0">
+    <title class="- topic/title ">Deploying the virtual appliances</title>
     <shortdesc class="- topic/shortdesc "/>
     <taskbody class="- topic/body task/taskbody ">
-        <context class="- topic/section task/context ">
+        <context class="- topic/section task/context " id="unique_17_Connect_42_context_mfv_1gz_vjb" nd:nd-id="context_mfv_1gz_vjb">
             <p class="- topic/p ">Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy
-                OVAs for the gateway, the data server, and the application stack, preferably in this
-                order. If an Elasticsearch cluster is also being deployed, those OVAs must be
-                deployed first. </p>
+                OVAs for the gateway, the data server, and the <term class="- topic/term " keyref="application_stack">application stack</term>,
+                preferably in this order. If an Elasticsearch cluster is also being deployed, those
+                OVAs must be deployed first. </p>
             <p class="- topic/p ">Ensure that all prerequisites for the deployment described in the planning section
                 are met and that the required software packages are available on your local system
                 before you start this task. </p>
@@ -1048,7 +1159,7 @@
                 depends on the number of data servers needed. Each data server requires a separate
                 OVA deployment. </p>
         </context>
-        <steps class="- topic/ol task/steps ">
+        <steps class="- topic/ol task/steps " id="unique_17_Connect_42_steps_nfv_1gz_vjb" nd:nd-id="steps_nfv_1gz_vjb">
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Connect to the ESX server or vCenter server. </cmd>
             </step>
@@ -1061,7 +1172,7 @@
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Within the Deploy OVF Template wizard, complete these steps.</cmd>
-                <substeps class="- topic/ol task/substeps " id="unique_12_Connect_42_substeps_wms_l1t_vjb" nd:nd-id="substeps_wms_l1t_vjb">
+                <substeps class="- topic/ol task/substeps " id="unique_17_Connect_42_substeps_wms_l1t_vjb" nd:nd-id="substeps_wms_l1t_vjb">
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">Within the <uicontrol class="+ topic/ph ui-d/uicontrol ">Select source</uicontrol> page, click
                                 <uicontrol class="+ topic/ph ui-d/uicontrol ">Local file</uicontrol>, and then browse to and select the
@@ -1119,7 +1230,7 @@
                 <cmd class="- topic/ph task/cmd ">Repeat steps 3 and 4 for each OVA. Configure the components of your IBM
                     StoredIQ environment in this order:</cmd>
                 <info class="- topic/itemgroup task/info ">
-                    <ol class="- topic/ol " id="unique_12_Connect_42_ol_rsr_jct_vjb" nd:nd-id="ol_rsr_jct_vjb">
+                    <ol class="- topic/ol " id="unique_17_Connect_42_ol_rsr_jct_vjb" nd:nd-id="ol_rsr_jct_vjb">
                         <li class="- topic/li ">Elasticsearch cluster (if applicable) </li>
                         <li class="- topic/li ">Gateway </li>
                         <li class="- topic/li ">One or more data servers </li>
@@ -1129,23 +1240,21 @@
             </step>
         </steps>
     </taskbody>
-</task><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic task/task " id="unique_13" topicrefclass="- map/topicref " nd:nd-id="deploying_ibm_storediq_on_microsoft_hyper_v" oid="deploying_ibm_storediq_on_microsoft_hyper_v">
+</task><task audience="Sys_Admin" class="- topic/topic task/task " id="unique_18" topicrefclass="- map/topicref " nd:nd-id="deploying_ibm_storediq_on_microsoft_hyper_v" oid="deploying_ibm_storediq_on_microsoft_hyper_v">
     <title class="- topic/title ">Deploying IBM StoredIQ on Microsoft Hyper-V</title>
     <shortdesc class="- topic/shortdesc ">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data
         server, and application stack can be installed on Microsoft Hyper-V. This option is not
         supported for the Elasticsearch virtual appliance. Installing IBM StoredIQ on Microsoft
         Hyper-V requires the use of third-party software. </shortdesc>
     <taskbody class="- topic/body task/taskbody ">
-        <prereq class="- topic/section task/prereq " id="unique_13_Connect_42_prereq_ecm_1dt_vjb" nd:nd-id="prereq_ecm_1dt_vjb">For the procedure described here, the following software
-            prerequisites must be met: <ul class="- topic/ul " id="unique_13_Connect_42_ul_xv1_cdt_vjb" nd:nd-id="ul_xv1_cdt_vjb">
-                <li class="- topic/li ">Microsoft Hyper-V Manager must be installed on a Windows system. </li>
-                <li class="- topic/li ">7-zip for Windows or tar for the Linux operating system must be available to
+        <prereq class="- topic/section task/prereq " id="unique_18_Connect_42_prereq_ecm_1dt_vjb" nd:nd-id="prereq_ecm_1dt_vjb">For the procedure described here, the following software
+            prerequisites must be met: <ul class="- topic/ul " id="unique_18_Connect_42_ul_xv1_cdt_vjb" nd:nd-id="ul_xv1_cdt_vjb">
+                <li class="- topic/li " platform="windows">Microsoft Hyper-V Manager must be installed on a Windows system. </li>
+                <li class="- topic/li " platform="windows">7-zip for Windows or tar for the Linux operating system must be available to
                     extract contents of the OVA. </li>
                 <li class="- topic/li ">7-zip for Windows or gunzip for the Linux operating system must be installed to
                     decompress the vmdk.gz file. </li>
-                <li class="- topic/li ">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
-                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx files.
-                </li>
+                
             </ul></prereq>
         <context class="- topic/section task/context ">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be
             built manually. Consider the following instructions a sample procedure. The instructions
@@ -1154,7 +1263,7 @@
         <steps class="- topic/ol task/steps ">
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Extract the vmdk file from the OVA.</cmd>
-                <substeps class="- topic/ol task/substeps " id="unique_13_Connect_42_substeps_dzw_mht_vjb" nd:nd-id="substeps_dzw_mht_vjb">
+                <substeps class="- topic/ol task/substeps " id="unique_18_Connect_42_substeps_dzw_mht_vjb" nd:nd-id="substeps_dzw_mht_vjb">
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">Download the OVA. </cmd>
                     </substep>
@@ -1175,14 +1284,14 @@
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file.</cmd>
                 <info class="- topic/itemgroup task/info "> For instructions about converting .vmdk files to .vhdx files, see the
-                    following links:<ul class="- topic/ul " id="unique_13_Connect_42_ul_cx3_tht_vjb" nd:nd-id="ul_cx3_tht_vjb">
+                    following links:<ul class="- topic/ul " id="unique_18_Connect_42_ul_cx3_tht_vjb" nd:nd-id="ul_cx3_tht_vjb">
                         <li class="- topic/li ">Use Microsoft Virtual Machine Converter </li>
                         <li class="- topic/li ">Using qemu-img </li>
                     </ul></info>
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Build a virtual machine.</cmd>
-                <substeps class="- topic/ol task/substeps " id="unique_13_Connect_42_substeps_hnm_vht_vjb" nd:nd-id="substeps_hnm_vht_vjb">
+                <substeps class="- topic/ol task/substeps " id="unique_18_Connect_42_substeps_hnm_vht_vjb" nd:nd-id="substeps_hnm_vht_vjb">
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">Select <uicontrol class="+ topic/ph ui-d/uicontrol ">New Virtual Machine </uicontrol>&gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Next
                                 from Hyper-V Manager</uicontrol>.</cmd>
@@ -1221,7 +1330,7 @@
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Optional: Add disks.</cmd>
-                <substeps class="- topic/ol task/substeps " id="unique_13_Connect_42_substeps_ojn_b3t_vjb" nd:nd-id="substeps_ojn_b3t_vjb">
+                <substeps class="- topic/ol task/substeps " id="unique_18_Connect_42_substeps_ojn_b3t_vjb" nd:nd-id="substeps_ojn_b3t_vjb">
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">Select a virtual machine in Microsoft Hyper-V Manager.</cmd>
                     </substep>
@@ -1268,4 +1377,47 @@
             </step>
         </steps>
     </taskbody>
-</task></map>
+</task></task><opentopic-index:index.groups class="- index/groups " id="d30e2588"><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">A</opentopic-index:label><opentopic-index:index.entry value="action" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">action</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1161803580" value="action:" class="- index/refid "><oxy:index-link href="#d30e497" class="- index/link ">
+                  [d30e497]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry><opentopic-index:index.entry value="application stacks" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">application stacks</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1355046945" value="application stacks:" class="- index/refid "><oxy:index-link href="#d30e379" class="- index/link ">
+                  [d30e379]
+                </oxy:index-link><oxy:index-link href="#d30e771" class="- index/link ">
+                  [d30e771]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">D</opentopic-index:label><opentopic-index:index.entry value="data servers" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">data servers</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-139171744" value="data servers:" class="- index/refid "><oxy:index-link href="#d30e374" class="- index/link ">
+                  [d30e374]
+                </oxy:index-link><oxy:index-link href="#d30e766" class="- index/link ">
+                  [d30e766]
+                </oxy:index-link><oxy:index-link href="#d30e1489" class="- index/link ">
+                  [d30e1489]
+                </oxy:index-link></opentopic-index:refID><opentopic-index:index.entry value="classic" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">classic</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1816403384" value="data servers:classic:" class="- index/refid "><oxy:index-link href="#d30e467" class="- index/link ">
+                  [d30e467]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry><opentopic-index:index.entry value="distributed" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">distributed</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1464014423" value="data servers:distributed:" class="- index/refid "><oxy:index-link href="#d30e471" class="- index/link ">
+                  [d30e471]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.entry><opentopic-index:index.entry value="default open ports" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">default open ports</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-675271265" value="default open ports:" class="- index/refid "><oxy:index-link href="#d30e969" class="- index/link ">
+                  [d30e969]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry><opentopic-index:index.entry value="default user accounts" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">default user accounts</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-555034946" value="default user accounts:" class="- index/refid "><oxy:index-link href="#d30e1790" class="- index/link ">
+                  [d30e1790]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">E</opentopic-index:label><opentopic-index:index.entry value="Each Elasticsearch node" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">Each Elasticsearch node</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1434068810" value="Each Elasticsearch node:" class="- index/refid "><oxy:index-link href="#d30e776" class="- index/link ">
+                  [d30e776]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">F</opentopic-index:label><opentopic-index:index.entry value="FIPS" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">FIPS</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid66900724" value="FIPS:" class="- index/refid "><oxy:index-link href="#d30e1785" class="- index/link ">
+                  [d30e1785]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">G</opentopic-index:label><opentopic-index:index.entry value="gateway" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">gateway</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1567718794" value="gateway:" class="- index/refid "><oxy:index-link href="#d30e369" class="- index/link ">
+                  [d30e369]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">I</opentopic-index:label><opentopic-index:index.entry value="IBM StoredIQ" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">IBM StoredIQ</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid762558115" value="IBM StoredIQ:" class="- index/refid "/><opentopic-index:index.entry value="administrator" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">administrator</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-1488292752" value="IBM StoredIQ:administrator:" class="- index/refid "><oxy:index-link href="#d30e480" class="- index/link ">
+                  [d30e480]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry><opentopic-index:index.entry value="data workbench" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">data workbench</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1578881934" value="IBM StoredIQ:data workbench:" class="- index/refid "><oxy:index-link href="#d30e484" class="- index/link ">
+                  [d30e484]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry><opentopic-index:index.entry value="desktop data collector" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">desktop data collector</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1131853180" value="IBM StoredIQ:desktop data collector:" class="- index/refid "><oxy:index-link href="#d30e492" class="- index/link ">
+                  [d30e492]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry><opentopic-index:index.entry value="policy manager" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">policy manager</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-752572328" value="IBM StoredIQ:policy manager:" class="- index/refid "><oxy:index-link href="#d30e488" class="- index/link ">
+                  [d30e488]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.entry><opentopic-index:index.entry value="ILMT" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">ILMT</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid69757808" value="ILMT:" class="- index/refid "/><opentopic-index:index.entry value="IBM Software License Metric Tag (SLMT)" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">IBM Software License Metric
+                    Tag (SLMT)</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-853924033" value="ILMT:IBM Software License Metric Tag (SLMT):" class="- index/refid "><oxy:index-link href="#d30e1723" class="- index/link ">
+                  [d30e1723]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">P</opentopic-index:label><opentopic-index:index.entry value="ports" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">ports</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid-982480280" value="ports:" class="- index/refid "><oxy:index-link href="#d30e1494" class="- index/link ">
+                  [d30e1494]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">S</opentopic-index:label><opentopic-index:index.entry value="scheduling harvests" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">scheduling harvests</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid1170097092" value="scheduling harvests:" class="- index/refid "><oxy:index-link href="#d30e458" class="- index/link ">
+                  [d30e458]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">T</opentopic-index:label><opentopic-index:index.entry value="TCP" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">TCP</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid2569369" value="TCP:" class="- index/refid "/><opentopic-index:index.entry value="port ranges for the firewall" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value ">port ranges for the firewall</opentopic-index:formatted-value><opentopic-index:refID indexid="indexid690048304" value="TCP:port ranges for the firewall:" class="- index/refid "><oxy:index-link href="#d30e964" class="- index/link ">
+                  [d30e964]
+                </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.entry></opentopic-index:index.group></opentopic-index:index.groups></map>

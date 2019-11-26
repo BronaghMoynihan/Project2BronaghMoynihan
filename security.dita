@@ -4,6 +4,14 @@
     <title>Security</title>
     <shortdesc>Plan and implement specific security measures to protect the application and the data
         it manages, especially when you deploy IBM StoredIQ into sensitive environments.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>FIPS</indexterm>
+                <indexterm>default user accounts</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing. </p>
         <section id="section_yrd_lyt_vjb">
@@ -50,7 +58,7 @@
                 of key and certificate files. However, if you run the utilities for enabling
                 stunnel, you might need to make the respective configuration changes again.</p>
         </section>
-        <section id="section_ghy_vyt_vjb">
+        <section id="section_ghy_vyt_vjb" platform="linux">
             <title>Encryption of data at rest</title>
             <p>Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the
                 Elasticsearch indexes are stored is encrypted by default. IBM StoredIQ uses Linux
@@ -165,7 +173,7 @@
                             <entry>
                                 <p>Administrative account for managing the AppStack server. For more
                                     information, see the administration guide. </p>
-                                <p>With new installations, you are prompted for a new password
+                                <p platform="linux">With new installations, you are prompted for a new password
                                     during the initial configuration of the AppStack. In updated
                                     deployments, change the password by using the Linux
                                         <cmdname>passwd</cmdname> command.</p>

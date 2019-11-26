@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="cover_page">
+    <title>Cover Page</title>
+    <shortdesc>This is a document produced by Bronagh Moynihan based on pages 1-22 of the IBM
+        document Deployment and Conﬁguration Guide (available online <xref
+            href="https://www.ibm.com/support/%20pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_%201.pdf"
+            format="pdf" scope="external" outputclass="new_window">here</xref>). </shortdesc>
+    <conbody>
+        <p>Conditions were applied to the text using a DITAVAL document. I devised a conditional
+            processing scheme based on the following attributes: </p>
+        <ul id="ul_kkz_xq1_wjb">
+            <li>Windows</li>
+            <li>Linux</li>
+        </ul>
+        <ul id="ul_cnt_yq1_wjb">
+            <li>System Administrator (Sys_Admin)</li>
+            <li>End User (End_User</li>
+        </ul>
+        <p> Windows and Linux content was excluded/included as it pertained to the user. Technically
+            advanced content was conditioned for System Administrators while content deemed basic
+            was conditioned for End Users. The last topic in full is conditioned for system
+            administrator. System admin content is flagged in red and yellow.</p>
+    </conbody>
+</concept>
