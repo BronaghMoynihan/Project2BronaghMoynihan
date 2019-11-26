@@ -1,0 +1,29 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2019"><meta name="DC.rights.owner" content="(C) Copyright 2019"><meta name="DC.type" content="task"><meta name="description" content="As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server, and application stack can be installed on Microsoft Hyper-V. This option is not supported for the Elasticsearch virtual appliance. Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party software."><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="deploying_ibm_storediq_on_microsoft_hyper_v"><link rel="stylesheet" type="text/css" href="commonltr.css"><title>Deploying IBM StoredIQ on Microsoft Hyper-V</title></head><body id="deploying_ibm_storediq_on_microsoft_hyper_v"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Deploying IBM StoredIQ on Microsoft Hyper-V</h1>
+    
+    <div class="body taskbody"><p class="shortdesc">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data
+        server, and application stack can be installed on Microsoft Hyper-V. This option is not
+        supported for the Elasticsearch virtual appliance. Installing IBM StoredIQ on Microsoft
+        Hyper-V requires the use of third-party software. </p>
+        <section class="section prereq" id="deploying_ibm_storediq_on_microsoft_hyper_v__prereq_ecm_1dt_vjb">For the procedure described here, the following software
+            prerequisites must be met: <ul class="ul" id="deploying_ibm_storediq_on_microsoft_hyper_v__ul_xv1_cdt_vjb">
+                <li class="li">Microsoft Hyper-V Manager must be installed on a Windows system. </li>
+                <li class="li">7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA. </li>
+                <li class="li">7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file. </li>
+                <li class="li">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
+                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx files.
+                </li>
+            </ul></section>
+        <section class="section context">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be
+            built manually. Consider the following instructions a sample procedure. The instructions
+            might differ depending on the version of the third-party software.<p class="p">Complete these
+                steps for the gateway, the data server, and the AppStack:</p></section>
+        <section><div class="li step p">
+                <span class="ph cmd"></span><br>
+            </div></section>
+    </div>
+</article></main></body></html>

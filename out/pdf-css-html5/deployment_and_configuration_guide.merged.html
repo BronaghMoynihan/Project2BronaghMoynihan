@@ -1,0 +1,1210 @@
+<html xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/deployment_and_configuration_guide.ditamap"><head><meta charset="UTF-8"></meta><meta name="copyright" content="(C) Copyright 2019"></meta><meta name="DC.rights.owner" content="(C) Copyright 2019"></meta><meta name="DC.type" content="map"></meta><meta name="DC.format" content="HTML5"></meta><meta name="DC.language" content="en"></meta>
+<link rel='stylesheet' type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css' />
+<link rel='stylesheet' type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css' />
+<link rel='stylesheet' type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css' />
+<title></title></head><body class="wh_topic_page"><div class="wh_content_area"><div class="wh_topic_body"><div class="wh_topic_content"><div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge" class="- map/map map" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xml:lang="en" lang="en"><div class="- front-page/front-page front-page"><div class="- front-page/front-page-title front-page-title"><div class="- topic/title title">Deployment and Configuration Guide</div></div></div><div class="- toc/toc toc"><div empty="true" class="- toc/title title"></div>
+    <div class="- topic/title title">Deployment and Configuration Guide</div>
+    <div is-chapter="true" href="#unique_1" type="concept" class="- map/topicref topicref"><div data-topic-id="concept_m3x_jvl_vjb" class="- map/topicmeta topicmeta"><div appid="concept_m3x_jvl_vjb" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_1" class="- topic/navtitle navtitle">About this publication</div><div class="- map/shortdesc shortdesc"></div></div></div>
+    <div is-chapter="true" href="#unique_2" type="reference" class="- map/topicref topicref"><div data-topic-id="ibm_storediq_product_library" class="- map/topicmeta topicmeta"><div appid="ibm_storediq_product_library" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_2" class="- topic/navtitle navtitle">IBM StoredIQ product library</div><div class="- map/shortdesc shortdesc">The following documents are available in the IBM StoredIQ product library:</div></div></div>
+    <div is-chapter="true" href="#unique_3" type="concept" class="- map/topicref topicref"><div data-topic-id="contacting_ibm_storediq_customer_support" class="- map/topicmeta topicmeta"><div appid="contacting_ibm_storediq_customer_support" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_3" class="- topic/navtitle navtitle">Contacting IBM StoredIQ customer support </div><div class="- map/shortdesc shortdesc"></div></div></div>
+    <div is-chapter="true" href="#unique_4" type="concept" class="- map/topicref topicref"><div data-topic-id="ibm_stored_iq_components" class="- map/topicmeta topicmeta"><div appid="ibm_stored_iq_components" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_4" class="- topic/navtitle navtitle">IBM Stored IQ Components</div><div class="- map/shortdesc shortdesc">The IBM StoredIQ solution consists of these components: the application stack, the         gateway, the data server, and optionally the Elasticsearch cluster.</div></div></div>
+    <div is-chapter="true" href="#unique_5" type="concept" class="- map/topicref topicref"><div data-topic-id="planning_for_deployment" class="- map/topicmeta topicmeta"><div appid="planning_for_deployment" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_5" class="- topic/navtitle navtitle">Planning for Deployment</div><div class="- map/shortdesc shortdesc"></div></div></div>
+    <div is-chapter="true" href="#unique_6" type="concept" class="- map/topicref topicref"><div data-topic-id="open_virtual_appliance__ova__configuration_requirements" class="- map/topicmeta topicmeta"><div appid="open_virtual_appliance__ova__configuration_requirements" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_6" class="- topic/navtitle navtitle">Open Virtual Appliance (OVA) configuration requirements </div><div class="- map/shortdesc shortdesc"></div></div></div>
+    <div is-chapter="true" href="#unique_7" type="reference" class="- map/topicref topicref"><div data-topic-id="network_and_port_requirements" class="- map/topicmeta topicmeta"><div appid="network_and_port_requirements" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_7" class="- topic/navtitle navtitle">Network and port requirements</div><div class="- map/shortdesc shortdesc"></div></div></div>
+    <div is-chapter="true" href="#unique_8" type="task" class="- map/topicref topicref"><div data-topic-id="open_ports_for_desktop_client_access_to_the_data_server" class="- map/topicmeta topicmeta"><div appid="open_ports_for_desktop_client_access_to_the_data_server" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_8" class="- topic/navtitle navtitle">Open ports for desktop client access to the data server</div><div class="- map/shortdesc shortdesc"></div></div></div>
+    <div is-chapter="true" href="#unique_9" type="concept" class="- map/topicref topicref"><div data-topic-id="environment_sizing_guidelines" class="- map/topicmeta topicmeta"><div appid="environment_sizing_guidelines" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_9" class="- topic/navtitle navtitle">Environment sizing guidelines </div><div class="- map/shortdesc shortdesc">To size an environment precisely, you must understand the factors such as harvest         frequency, complexity of the source, and use case scenarios that drive application use and         action execution. </div></div></div>
+    <div is-chapter="true" href="#unique_10" type="concept" class="- map/topicref topicref"><div data-topic-id="licence_usage_metrics" class="- map/topicmeta topicmeta"><div appid="licence_usage_metrics" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_10" class="- topic/navtitle navtitle">Licence usage metrics</div></div></div>
+    <div is-chapter="true" href="#unique_11" type="concept" class="- map/topicref topicref"><div data-topic-id="security" class="- map/topicmeta topicmeta"><div appid="security" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_11" class="- topic/navtitle navtitle">Security</div><div class="- map/shortdesc shortdesc">Plan and implement specific security measures to protect the application and the data         it manages, especially when you deploy IBM StoredIQ into sensitive environments.</div></div></div>
+    <div is-chapter="true" href="#unique_12" type="task" class="- map/topicref topicref"><div data-topic-id="deploying_ibm_storediq" class="- map/topicmeta topicmeta"><div appid="deploying_ibm_storediq" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_12" class="- topic/navtitle navtitle">Deploying IBM StoredIQ</div><div class="- map/shortdesc shortdesc"></div></div></div>
+    <div is-chapter="true" href="#unique_13" type="task" class="- map/topicref topicref"><div data-topic-id="deploying_ibm_storediq_on_microsoft_hyper_v" class="- map/topicmeta topicmeta"><div appid="deploying_ibm_storediq_on_microsoft_hyper_v" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_13" class="- topic/navtitle navtitle">Deploying IBM StoredIQ on Microsoft Hyper-V</div><div class="- map/shortdesc shortdesc">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data         server, and application stack can be installed on Microsoft Hyper-V. This option is not         supported for the Elasticsearch virtual appliance. Installing IBM StoredIQ on Microsoft         Hyper-V requires the use of third-party software. </div></div></div>
+</div><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title1" break-before="true" is-chapter="true" id="unique_1" topicrefclass="- map/topicref " nd:nd-id="concept_m3x_jvl_vjb" oid="concept_m3x_jvl_vjb">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">About this publication</h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc"></p>
+        <p class="- topic/p p"> IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and configure the IBM StoredIQ product.</p>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic reference/reference topic reference nested0" aria-labelledby="ariaid-title2" break-before="true" is-chapter="true" id="unique_2" topicrefclass="- map/topicref " nd:nd-id="ibm_storediq_product_library" oid="ibm_storediq_product_library">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title2">IBM StoredIQ product library</h1>
+    
+    <div class="- topic/body reference/refbody body refbody"><p class="- topic/shortdesc shortdesc">The following documents are available in the IBM StoredIQ product library:</p><section class="- topic/section section">
+        <div class="- topic/p p"><ul class="- topic/ul ul">
+            <li class="- topic/li li">IBM StoredIQ Overview Guide</li>
+            <li class="- topic/li li">IBM StoredIQ Deployment and Configuration Guide</li>
+                <li class="- topic/li li">IBM StoredIQ Data Server Administration Guide</li>
+            <li class="- topic/li li">IBM StoredIQ Administrator Administration Guide</li>
+               <li class="- topic/li li"> IBM StoredIQ Data Workbench User Guide</li>
+                <li class="- topic/li li">IBM StoredIQ Policy Manager User Guide</li>
+               <li class="- topic/li li">IBM StoredIQ Insights User Guide</li>
+            <li class="- topic/li li">IBM StoredIQ Integration Guide</li>
+        </ul></div>
+    </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title3" break-before="true" is-chapter="true" id="unique_3" topicrefclass="- map/topicref " nd:nd-id="contacting_ibm_storediq_customer_support" oid="contacting_ibm_storediq_customer_support">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title3">Contacting IBM StoredIQ customer support </h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc"></p>
+        <p class="- topic/p p">For IBM StoredIQ technical support or to learn about available service options, contact
+            IBM StoredIQ customer support at this phone number: </p>
+        <ul class="- topic/ul ul" id="unique_3_Connect_42_ul_adq_gjt_vjb" nd:nd-id="ul_adq_gjt_vjb">
+            <li class="- topic/li li">1-866-227-2068 </li>
+        </ul>
+        <p class="- topic/p p">Or, see the Contact IBM web site at <a class="- topic/xref xref" format="html" href="http://www.ibm.com/contact/us/" scope="external" target="_blank">http://www.ibm.com/contact/us/</a>.</p>
+        <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">IBM Knowledge Center</strong>
+        </p>
+        <p class="- topic/p p">The IBM StoredIQ documentation is available in IBM Knowledge Center. Contacting IBM </p>
+        <section class="- topic/section section" id="unique_3_Connect_42_section_fvh_ljt_vjb" nd:nd-id="section_fvh_ljt_vjb"><h2 class="- topic/title title sectiontitle">Contacting IBM</h2>
+            
+            <p class="- topic/p p">For general inquiries, call 800-IBM-4YOU (800-426-4968). To contact IBM customer
+                service in the United States or Canada, call 1-800-IBM-SERV (1-800-426-7378).</p>
+            <p class="- topic/p p"> For more information about how to contact IBM, including TTY service, see the
+                Contact IBM website at<a class="- topic/xref xref" format="html" href="http://www.ibm.com/contact/us/" scope="external" target="_blank">http://www.ibm.com/contact/us/</a>. </p>
+        </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title4" break-before="true" is-chapter="true" id="unique_4" topicrefclass="- map/topicref " nd:nd-id="ibm_stored_iq_components" oid="ibm_stored_iq_components">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title4">IBM Stored IQ Components</h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">The IBM StoredIQ solution consists of these components: the application stack, the
+        gateway, the data server, and optionally the Elasticsearch cluster.</p>
+        <section class="- topic/section section" id="unique_4_Connect_42_section_wx1_5kt_vjb" nd:nd-id="section_wx1_5kt_vjb"><h2 class="- topic/title title sectiontitle">Solution Components</h2>
+            
+            <p class="- topic/p p">IBM StoredIQ provides three solution components: the gateway, data servers, and
+                application stack (AppStack). </p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Gateway</strong>
+            </p>
+            <p class="- topic/p p">The gateway communicates between the data servers and the application stack. The
+                application stack polls the gateway for information about the data on the data
+                servers. The data servers push the information to the gateway. </p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Data servers</strong>
+            </p>
+            <p class="- topic/p p">A data server obtains the data from supported data sources and indexes it. By
+                indexing this data, you gain information about unstructured data such as file size,
+                file data types, file owners. </p>
+            <p class="- topic/p p">The data server pushes the information about volumes and indexes to the gateway so it
+                can be communicated to the application stack. Multiple data servers feed into a
+                single gateway. </p>
+            <p class="- topic/p p">Data servers can be categorized in two types: DataServer - Classic and DataServer -
+                Distributed. A data server of the type DataServer - Classic uses the embedded
+                PostgreSQL database for storing the index. With a data server of the type DataServer
+                - Distributed, the index is stored in an Elasticsearch cluster. Data servers of this
+                type also provide better performance in search queries. They can manage much larger
+                amounts of data than data servers of the type DataServer - Classic, thus making the
+                IBM StoredIQ deployments more scalable. </p>
+            <p class="- topic/p p">You can have both types of data servers in your IBM StoredIQ deployment. </p>
+            <p class="- topic/p p">In addition to completing standard administrative tasks, administrators can deploy
+                the IBM StoredIQ Desktop Data Collector and index desktops from the data server.</p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Application stack</strong>
+            </p>
+            <p class="- topic/p p">The application stack provides the user interface for the IBM StoredIQ Administrator,
+                IBM StoredIQ Data Workbench, IBM StoredIQ Insights, and the IBM StoredIQ Policy
+                Manager products. The synchronization feature for integration with a governance
+                catalog is also part of the application stack. </p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Elasticsearch cluster</strong>
+            </p>
+            <p class="- topic/p p">The Elasticsearch cluster attached to a data server of the type DataServer -
+                Distributed provides a single data store for all metadata and content of harvested
+                objects. Indexed data is distributed automatically across the nodes in the cluster.
+                Indexing and queries are load-balanced across all nodes. Nodes can be added
+                dynamically without downtime and the indexing process can use these newly added
+                nodes without further setup. </p>
+        </section>
+        <section class="- topic/section section" id="unique_4_Connect_42_section_lsw_clt_vjb" nd:nd-id="section_lsw_clt_vjb"><h2 class="- topic/title title sectiontitle">Applications of IBM StoredIQ</h2>
+            
+            <p class="- topic/p p">IBM StoredIQ provides interface applications that help fulfill its solution
+                goals.</p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">IBM StoredIQ Data Server</strong></p>
+            <p class="- topic/p p">IBM StoredIQ Data Server user interface provides access to data server functionality.
+                It allows administrators to view the dashboard and see the status of the jobs and
+                system details. Administrators  can manage information about servers and conduct
+                various configurations on the system and application settings.</p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">IBM StoredIQ Administrator </strong></p>
+            <p class="- topic/p p">IBM StoredIQ Administrator helps you manage global assets common to the distributed
+                infrastructure behind IBM StoredIQ applications.</p>
+            <p class="- topic/p p">IBM StoredIQ Administrator provides at-a-glance understanding of the different issues
+                that can crop up in the IBM StoredIQ environment. These views are unique to the IBM
+                StoredIQ Administrator application as they provide an overview of how the system is
+                running. They allow access to various pieces of information that are being shared
+                across applications or allow for the management of resources in a centralized
+                manner. </p>
+            <p class="- topic/p p">The administrator is the person responsible for managing the IBM StoredIQ. This
+                individual has strong understanding of data sources, indexes, data servers, jobs,
+                infosets, and actions. This list provides an overview as to how IBM StoredIQ
+                Administrator works: </p>
+            <ul class="- topic/ul ul" id="unique_4_Connect_42_ul_xvs_ylt_vjb" nd:nd-id="ul_xvs_ylt_vjb">
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Viewing data servers and volumes</strong>: Using IBM StoredIQ Administrator, the
+                    Administrator can identify what data servers are deployed, their location, what
+                    data is being managed, and the status of each data server in the system. Volume
+                    management is a central component of IBM StoredIQ. IBM StoredIQ Administrator
+                    also allows the Administrator to see what volumes are currently under
+                    management, which data server is responsible for that volume, the state of the
+                    volume after indexing, and the amount and size of information that is contained
+                    by each volume. Administrators can also add volumes to and delete volumes from
+                    data servers through this interface. If IBM StoredIQ is configured for
+                    integration with Information Governance Catalog, the Administrator can also
+                    manage which volumes are published to the governance catalog.</li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Scheduling harvests</strong>: Harvesting, which can also be referred to as
+                    indexing, is the process or task by which IBM StoredIQ examines and classifies
+                    data in your network. Using IBM StoredIQ Administrator, harvests can be
+                    scheduled, edited, and deleted. </li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Creating system infosets</strong>: System infosets that use only specific indexed
+                    volumes can be created and managed within IBM StoredIQ Administrator. Although
+                    infosets are a core component of IBM StoredIQ Data Workbench, system infosets
+                    are created as a shortcut for users in IBM StoredIQ Administrator.</li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Managing users</strong>: The user management area allows administrators to create
+                    users and manage users' access to the various IBM StoredIQ applications.</li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Configuring and managing actions</strong>: An action is any process that is taken
+                    upon the data that is represented by the indexes. Actions are run by data
+                    servers on indexed data objects. Any errors or warnings that are generated as a
+                    result of an action are recorded as exceptions in IBM StoredIQ Data Workbench.
+                    Note: Actions can be created within IBM StoredIQ Administrator and then made
+                    available to other IBM StoredIQ applications such as IBM StoredIQ Data
+                    Workbench.</li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Managing target sets</strong>: Provides an interface that allows the user to set
+                    the wanted targets for specific actions that require a destination volume for
+                    their actions. </li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Reports</strong>: IBM StoredIQ Administrator provides a number of built-in
+                    reports, such as summaries of data objects in the system, storage use, and the
+                    number of identical documents in the system. You can create custom reports,
+                    including Query Analysis Reports for e-discovery purposes, and automatically
+                    email report notifications to administrators and other interested parties. </li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Auto-classification</strong>: Automated document categorization, what IBM StoredIQ
+                    refers to as autoclassification models, integrates the IBM Content
+                    Classification's classification model into the IBM StoredIQ infoset-generation
+                    process. Data Experts can use IBM Content Classification to train a
+                    classification model, which is then registered with IBM StoredIQ Administrator.
+                    The registered classification model can be applied to an existing infoset in IBM
+                    StoredIQ Data Workbench to generate new metadata for the objects in the infoset.
+                    Metadata can be used in rule-based filters to create new infosets.</li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Cartridges</strong>: Cartridges are compressed files that contain analysis logic.
+                    When you add a cartridge to IBM StoredIQ AppStack, it can detect new data in
+                    documents during indexing and make these new insights searchable. For example, a
+                    sensitive pattern cartridge can enable IBM StoredIQ to detect passport numbers,
+                    phone numbers, and other IDs. To apply the analysis logic contained in the
+                    cartridge, you must run a Step-up Analytics action that uses the cartridge on an
+                    infoset. IBM StoredIQ examines all documents in the infoset, applies the
+                    analytics, and then stores the analysis results in the IBM StoredIQ index.</li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Managing concepts</strong>: Provides the ability to relate business concepts to
+                    indexed data. </li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Managing Mule scripts</strong>: Helps you to create Mule scripts and upload script
+                    packages. These Mule scripts are used by IBM StoredIQ Policy Manager to create
+                    policies using the automation workflow. </li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">DataServer - Classic</strong>: Data servers can be categorized in two types:
+                    DataServer - Classic and DataServer - Distributed. DataServer - Classic refers
+                    to the regular data servers. It uses either the current PostgreSQL or Lucene
+                    index as an index. </li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">DataServer - Distributed</strong>: The distributed data server uses an
+                    Elasticsearch cluster instead of an embedded Postgres database. It increases the
+                    scalability and flexibility of the IBM StoredIQ deployment in a way that it can
+                    manage much larger amounts of data. Without adding more data servers, data that
+                    is managed by the IBM StoredIQ deployment can be increased by adding new nodes
+                    to the Elasticsearch cluster. Search queries perform better on DataServer -
+                    Distributed. </li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Connector API SDK</strong>: A connector is a software component of IBM StoredIQ
+                    that is used to connect to a data source such as a network file system and
+                    access its data. Using IBM StoredIQ Connector API SDK, developers of other
+                    companies can develop connectors to new data sources outside the IBM StoredIQ
+                    development environment. These connectors can be integrated with a live IBM
+                    StoredIQ application to index, search, manage, and analyze data on the data
+                    source. </li>
+            </ul>
+        </section>
+        <section class="- topic/section section" id="unique_4_Connect_42_section_d5k_wmt_vjb" nd:nd-id="section_d5k_wmt_vjb"><h2 class="- topic/title title sectiontitle">IBM StoredIQ Data Workbench </h2>
+            
+            <p class="- topic/p p">Big data is a pervasive problem, not a one-time occurrence. It is easy for most
+                companies to realize that big data is problematic, but it is hard to identify what
+                problems they have. Big data is all about the unknown, but the unknown cannot be off
+                limits. IBM StoredIQ Data Workbench can help you learn about your data, make
+                educated decisions with your most valuable asset, and turn your company's most
+                dangerous risk into its most valuable asset. </p>
+            <p class="- topic/p p">IBM StoredIQ Data Workbench is a data visualization and management tool that helps
+                you to actively manage your company's data. It helps you to determine how much data
+                you have, where it is, who owns it, and when it was last used. When you have a clear
+                understanding of your company's data landscape, IBM StoredIQ Data Workbench helps
+                you take control of data. You can make informed decisions about your data and act on
+                that knowledge by copying, copying to retention, or conducting a discovery export.
+                Here are just some examples of how you can use IBM StoredIQ Data Workbench. </p>
+            <ul class="- topic/ul ul" id="unique_4_Connect_42_ul_xsm_dnt_vjb" nd:nd-id="ul_xsm_dnt_vjb">
+                <li class="- topic/li li">You need to find all company email that is sent from or received by Eileen
+                    Sideways (esideways@thecompany.com). You can use IBM StoredIQ Data Workbench to
+                    find all email and then copy that data to a predefined repository. You can also
+                    use IBM StoredIQ Data Workbench to find all of the esideways@thecompany.com
+                    email that occurred between specific dates and then make that email available
+                    for review. </li>
+                <li class="- topic/li li">As an administrator, you want to rid your networks and storage of unused data.
+                    You can use IBM StoredIQ Data Workbench to find all files that were not modified
+                    in more than five years.</li>
+                <li class="- topic/li li">You want to find all image files that are created in 2007. Not only can IBM
+                    StoredIQ Data Workbench find all image files that were created in 2007. It also
+                    shows how much space they occupy on your network.</li>
+                <li class="- topic/li li">A user needs to understand how data about Windows is being retained. Using IBM
+                    StoredIQ Data Workbench, you can provide that user with a visual overview of the
+                    number of objects that are retained and a breakdown of files per data source.
+                    Additionally, you can apply overlays to show the user if those files contain
+                    forbidden information such as credit-card numbers or Social Security
+                    numbers.</li>
+                <li class="- topic/li li">If IBM StoredIQ is configured accordingly, you can select the infosets and
+                    filters that are published to the governance catalog for unified governance of
+                    structured and unstructured information. When integrating with Information
+                    Governance Catalog, you can also analyze and classify the data governed by IBM
+                    StoredIQ based on the data classes that are synchronized from the governance
+                    catalog.</li>
+            </ul>
+        </section>
+        <section class="- topic/section section" id="unique_4_Connect_42_section_eyv_3nt_vjb" nd:nd-id="section_eyv_3nt_vjb"><h2 class="- topic/title title sectiontitle">IBM StoredIQ Insights</h2>
+            
+            <p class="- topic/p p">IBM StoredIQ Insights provides dynamic and interactive filtering for your data with
+                easy access to all metadata and instant plain-text preview of document content for
+                full-text indexed volumes. </p>
+            <p class="- topic/p p">Faceted search lets you drill down to refine your search results as needed. In
+                addition, you can apply any valid IBM StoredIQ filter query. Tags let you categorize
+                the data for easier management. Visual representations of search results help you
+                gain further insights into your data. Several chart types let you look at and
+                explore data from different perspectives, thus helping you identify patterns and
+                relationships very quickly. </p>
+            <p class="- topic/p p">With IBM StoredIQ Insights, you can search data that is managed and indexed by a data
+                server of the type DataServer - Distributed. In mixed deployments that have classic
+                and distributed data servers, only the content from distributed data servers will be
+                searchable. </p>
+        </section>
+        <section class="- topic/section section" id="unique_4_Connect_42_section_wss_mnt_vjb" nd:nd-id="section_wss_mnt_vjb"><h2 class="- topic/title title sectiontitle">IBM StoredIQ Policy Manager </h2>
+            
+            <p class="- topic/p p">IBM StoredIQ Policy Manager allows users to run mature policies and processes at
+                scale across a wider range of data.The users can define and run systemwide policies,
+                focusing on the execution of the process rather than understanding or reviewing
+                affected data objects. Additionally, with reports of IBM StoredIQ Policy Manager,
+                you can record what actions were conducted, when they were conducted, and what data
+                was affected by the policy's execution. </p>
+        </section>
+        <section class="- topic/section section" id="unique_4_Connect_42_section_v4x_tnt_vjb" nd:nd-id="section_v4x_tnt_vjb"><h2 class="- topic/title title sectiontitle">IBM StoredIQ Desktop Data Collector </h2>
+            
+            <p class="- topic/p p">IBM StoredIQ Desktop Data Collector (also referred to as desktop client indexes
+                desktops as volumes. The volumes appear in IBM StoredIQ Data Server and in IBM
+                StoredIQ Administrator, where they can be used like any other data source. The data
+                server maintains an index using the information sent by the desktop client. After
+                indexing, desktops - even offline or unreachable ones - can be viewed, searched, or
+                targeted for later policy action. </p>
+        </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title5" break-before="true" is-chapter="true" id="unique_5" topicrefclass="- map/topicref " nd:nd-id="planning_for_deployment" oid="planning_for_deployment">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title5">Planning for Deployment</h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc"></p>
+        <p class="- topic/p p">When you plan a deployment of IBM StoredIQ, evaluate several infrastructure
+            considerations. </p>
+        <p class="- topic/p p">In addition to the information in this section, review the requirements detailed in the
+            IBM Software Product Compatibility Reports (SPCR) tool at: Software Product
+            Compatibility Reports: StoredIQ 7.6 </p>
+        <p class="- topic/p p">If you plan to use IBM StoredIQ for Legal Identification and Collection to create and
+            manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also check
+            the system requirements for StoredIQ for Legal at: Software Product Compatibility
+            Reports: StoredIQ for Legal 2.0.3</p>
+        <section class="- topic/section section" id="unique_5_Connect_42_section_hz1_j4t_vjb" nd:nd-id="section_hz1_j4t_vjb"><h2 class="- topic/title title sectiontitle"> Generate customized reports with the SPCR tool </h2>
+            
+            <p class="- topic/p p"> Go to the page at Software Product Compatibility Reports to create a high-level
+                report for supported operating systems, related software, hypervisors, and supported
+                translations for any product. You can also create an in-depth report to get detailed
+                system requirements, hardware requirements, and end of service information for each
+                product. You can search for a product in all of the report types and reports are
+                generated based on your query values. The following report types are the most
+                commonly generated reports from software product compatibility reports:</p>
+            <ul class="- topic/ul ul" id="unique_5_Connect_42_ul_o22_l4t_vjb" nd:nd-id="ul_o22_l4t_vjb">
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Detailed system requirements</strong><p class="- topic/p p">When you select your product version for
+                        the detailed system requirements report, you can set a report filter for
+                        Operating system platforms, Product components, and Capabilities, including
+                        prerequisites and support software. After you view the report, you can save
+                        it as a URL to generate anytime or download it as a PDF. </p></li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Hardware requirements </strong><p class="- topic/p p">When you select your product version for the
+                        hardware requirements report, you can set a report filter by the Operating
+                        system families option. Set the operating system filter by selecting some or
+                        all of the operating systems that are supported by your product. After you
+                        view the report, you can save it as a URL to generate anytime or download it
+                        as a PDF. </p></li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">End of service</strong><p class="- topic/p p">The end of service report shows the service window of
+                        the products that you specify over an eightyear span. For example, you can
+                        find out when your product is scheduled to go out of service. </p></li>
+            </ul>
+        </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title6" break-before="true" is-chapter="true" id="unique_6" topicrefclass="- map/topicref " nd:nd-id="open_virtual_appliance__ova__configuration_requirements" oid="open_virtual_appliance__ova__configuration_requirements">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title6">Open Virtual Appliance (OVA) configuration requirements </h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc"></p>
+        <p class="- topic/p p">IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all
+            fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a
+            virtual infrastructure that meets the IBM StoredIQ hardware requirements.</p>
+        <p class="- topic/p p">
+            <strong class="+ topic/ph hi-d/b ph b">Application stack</strong></p>
+        <ul class="- topic/ul ul" id="unique_6_Connect_42_ul_ntw_bpt_vjb" nd:nd-id="ul_ntw_bpt_vjb">
+            <li class="- topic/li li"> vCPU: 2 </li>
+            <li class="- topic/li li"> Memory: 4 GB </li>
+            <li class="- topic/li li">Storage: <ul class="- topic/ul ul" id="unique_6_Connect_42_ul_wtk_fpt_vjb" nd:nd-id="ul_wtk_fpt_vjb">
+                    <li class="- topic/li li">Primary disk (vmdisk1): 21 GB </li>
+                    <li class="- topic/li li">Data disk (vmdisk2): 10 GB</li>
+                </ul></li>
+        </ul>
+        <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Gateway server</strong></p>
+        <ul class="- topic/ul ul" id="unique_6_Connect_42_ul_ngj_3pt_vjb" nd:nd-id="ul_ngj_3pt_vjb">
+            <li class="- topic/li li">vCPU: 4</li>
+            <li class="- topic/li li">Memory: 8 GB </li>
+            <li class="- topic/li li">Storage:<ul class="- topic/ul ul" id="unique_6_Connect_42_ul_tf2_lpt_vjb" nd:nd-id="ul_tf2_lpt_vjb">
+                    <li class="- topic/li li">Primary disk (vmdisk1): 100 GB </li>
+                    <li class="- topic/li li">Data disk (vmdisk2): 75 GB </li>
+                    <li class="- topic/li li">Swap disk (vmdisk3): 40 - 100 GB </li>
+                </ul></li>
+        </ul>
+        <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">DataServer - Classic</strong></p>
+        <ul class="- topic/ul ul" id="unique_6_Connect_42_ul_eds_ppt_vjb" nd:nd-id="ul_eds_ppt_vjb">
+            <li class="- topic/li li">vCPU: 4 Even though increasing the number of vCPUs increases performance, the actual
+                benefits depend on whether the specific host is oversubscribed or not. </li>
+            <li class="- topic/li li">Memory: 16 GB While the minimum value works under light-load condition, as the load
+                increases, the data server quickly starts using swap space. For high load
+                situations, increasing RAM beyond 16 GB can benefit performance. Monitoring swap
+                usage can provide insight. </li>
+            <li class="- topic/li li">Storage:<ul class="- topic/ul ul" id="unique_6_Connect_42_ul_lwf_spt_vjb" nd:nd-id="ul_lwf_spt_vjb">
+                    <li class="- topic/li li">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB <p class="- topic/p p">This virtual disk has
+                            an associated VMDK that contains the IBM StoredIQ operating code. Do not
+                            change its size. </p><div class="- topic/note note attention note_attention" type="attention"><span class="note__title">Attention:</span>  If you delete the primary
+                            disk, you delete the operating system, and the IBM StoredIQ software;
+                            the virtual machine might need to be scrapped.</div></li>
+                    <li class="- topic/li li"> Data disk (vmdisk2, SCSI 0:1): Default is 2 TB <p class="- topic/p p">This virtual disk can be
+                            resized according to expectations on the amount of harvest data to be
+                            stored. For purposes of estimation, the index storage requirement for
+                            metadata is about 30 GB per TB of managed source data. Full-text
+                            indexing requires an extra 170 GB per TB. Therefore, the default data
+                            disk size is targeted for managing 10 TB of source information.</p></li>
+                    <li class="- topic/li li">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB <p class="- topic/p p">When under load, the data
+                            server can use much RAM; therefore, having ample swap space is prudent.
+                            The minimum swap size is equal to the amount of RAM configured for the
+                            virtual machine. For best performance under load, place this disk on the
+                            highest speed data store available to the host.</p>
+                    </li>
+                </ul></li>
+        </ul>
+        <p class="- topic/p p">The general size limits for a data server are 150 million objects or 500 defined volumes,
+            whichever limit is reached first. Assuming an average object size of 200 KB equals about
+            30 TB of managed storage across 30 volumes of 5 million objects each, the index storage
+            requirement for metadata on ~30 TB of storage that contains uncompressed general office
+            documents is ~330 GB (11 GB per TB). Add 100 GB per TB of managed storage for full-text
+            or snippet index. For example, to support 30 TB of storage that is indexed for metadata,
+            you need 8 TB indexed for full-text search and extracted text (snippet cache) of 8 TB
+            for auto-classification. A total of 1.9 TB of storage is required (metadata: 330 GB,
+            full-text: 800 GB, snippet cache: 800 GB). </p>
+        <p class="- topic/p p">Data-server performance is impacted by the IOPS available from the storage subsystem. For
+            each data server under maximum workload, at least 650 IOPS generally delivers acceptable
+            performance. In the situations where there is a high load on the system, the IOPS that
+            is used can reach up to 7000 with main write operations.</p>
+        <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Data Server - Distributed</strong></p>
+        <ul class="- topic/ul ul" id="unique_6_Connect_42_ul_zp4_vqt_vjb" nd:nd-id="ul_zp4_vqt_vjb">
+            <li class="- topic/li li">vCPU: 4 </li>
+            <li class="- topic/li li">Memory: 16 GB </li>
+            <li class="- topic/li li">Storage:<ul class="- topic/ul ul" id="unique_6_Connect_42_ul_pxv_wqt_vjb" nd:nd-id="ul_pxv_wqt_vjb">
+                    <li class="- topic/li li">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB </li>
+                    <li class="- topic/li li">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB </li>
+                    <li class="- topic/li li">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="- topic/p p">If you deploy this type of data server, you must also deploy an Elasticsearch cluster
+            with at least one node. If you deploy a cluster with more nodes, each of the
+            Elasticsearch nodes must meet the listed requirements.</p>
+        <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Each Elasticsearch node</strong></p>
+        <ul class="- topic/ul ul" id="unique_6_Connect_42_ul_smg_brt_vjb" nd:nd-id="ul_smg_brt_vjb">
+            <li class="- topic/li li"> vCPU: 1 </li>
+            <li class="- topic/li li">Memory: 32 GB </li>
+            <li class="- topic/li li">Storage:<ul class="- topic/ul ul" id="unique_6_Connect_42_ul_jdj_crt_vjb" nd:nd-id="ul_jdj_crt_vjb">
+                    <li class="- topic/li li">Primary disk (vmdisk1): 100 GB </li>
+                    <li class="- topic/li li">Data disk (vmdisk2): 1 TB </li>
+                </ul></li>
+        </ul>
+        <p class="- topic/p p">The required memory depends on the index size that is handled by the data node. For a
+            better performance, consider increasing the memory. The total memory available to the
+            node must be distributed between the host operating system, the Elasticsearch java heap
+            space, and the kernel file system caches. For example, if the system has 32 GB memory, 2
+            GB must be allocated for the host operating system, 15 GB for the java heap space, and
+            the remaining 15 GB for the file system caches. </p>
+        <p class="- topic/p p">The data disk (vmdisk2) can be resized according to expectations on the amount of harvest
+            data to be stored. </p>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic reference/reference topic reference nested0" aria-labelledby="ariaid-title7" break-before="true" is-chapter="true" id="unique_7" topicrefclass="- map/topicref " nd:nd-id="network_and_port_requirements" oid="network_and_port_requirements">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title7">Network and port requirements</h1>
+    
+    <div class="- topic/body reference/refbody body refbody"><p class="- topic/shortdesc shortdesc"></p>
+        <table class="- topic/table table frame-all" colsep="1" frame="all" id="unique_7_Connect_42_table_uth_jst_vjb" nd:nd-id="table_uth_jst_vjb" rowsep="1"><caption><span class="table--title-label">Table <span class="table--title-label-number">1. </span></span><span class="- topic/title title">Default open ports on the AppStack</span></caption><colgroup><col style="width:50%"></col><col style="width:50%"></col></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row row">
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__1">Port Number</th>
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__2">Protocol</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__1 ">22</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__2 ">tcp</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__1 ">80</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__2 ">tcp</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__1 ">443</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_uth_jst_vjb__entry__2 ">tcp</td>
+                    </tr>
+                </tbody></table>
+        <table class="- topic/table table frame-all" colsep="1" frame="all" id="unique_7_Connect_42_table_kym_4st_vjb" nd:nd-id="table_kym_4st_vjb" rowsep="1"><caption><span class="table--title-label">Table <span class="table--title-label-number">2. </span></span><span class="- topic/title title">Default open ports on the IBM StoredIQ data server</span></caption><colgroup><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row row">
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__1">Port Number</th>
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__2">Protocol</th>
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__3">Service</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__1 ">22</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__3 ">PROD-ssh</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__1 ">80</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__3 ">PROD-web</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__1 ">443</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__3 ">PROD-https (UI and web Services APIs)</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="5" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__1 ">11103</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="5" morerows="1" rowspan="2" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__2 ">tcptcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="5" morerows="1" rowspan="2" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__3 ">PROD-transport (IBM StoredIQ transport services;
+                            communication between the gateway and the data server) </td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="6" headers="unique_7__unique_7_Connect_42_table_kym_4st_vjb__entry__1 ">11104</td>
+                    </tr>
+                </tbody></table>
+        <section class="- topic/section section" id="unique_7_Connect_42_section_smv_xst_vjb" nd:nd-id="section_smv_xst_vjb"><h2 class="- topic/title title sectiontitle">Enable or disable ports or services on the IBM
+                StoredIQ data server</h2><p class="- topic/p p">To manage ports, you can use the
+                    <code class="+ topic/ph pr-d/codeph ph codeph">/usr/local/storediq/bin/util/port_handler.pyc</code> script with the
+                appropriate
+                parameter:</p><pre class="+ topic/pre pr-d/codeblock pre codeblock" xml:space="preserve"><code>python /usr/local/storediq/bin/util/port_handler.pyc -parameter</code></pre><span class="+ topic/keyword sw-d/cmdname keyword cmdname">-s</span><p class="- topic/p p">To
+                list the current rules in iptables</p><span class="+ topic/keyword sw-d/cmdname keyword cmdname">-l</span><p class="- topic/p p">To list supported
+                services</p><span class="+ topic/keyword sw-d/cmdname keyword cmdname">-d port_number|'port_range' </span><p class="- topic/p p">To delete a port or a
+                range of port numbers from iptables, for example:
+                </p><pre class="+ topic/pre pr-d/codeblock pre codeblock" xml:space="preserve"><code>python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299' </code></pre><span class="+ topic/keyword sw-d/cmdname keyword cmdname">-e
+                'service_name' </span><p class="- topic/p p">To enable a specific service, for example, to enable
+                HTTPS
+                services:</p><pre class="+ topic/pre pr-d/codeblock pre codeblock" xml:space="preserve"><code>python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https' </code></pre><span class="+ topic/keyword sw-d/cmdname keyword cmdname">-d
+                'service_name'</span><p class="- topic/p p"> To disable a specific service, for example, to disable
+                HTTPS
+            services:</p><pre class="+ topic/pre pr-d/codeblock pre codeblock" xml:space="preserve"><code>python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'</code></pre></section>
+        <table class="- topic/table table frame-all" colsep="1" frame="all" id="unique_7_Connect_42_table_mr5_15t_vjb" nd:nd-id="table_mr5_15t_vjb" rowsep="1"><caption><span class="table--title-label">Table <span class="table--title-label-number">3. </span></span><span class="- topic/title title">Default open ports on the nodes in the Elasticsearch cluster</span></caption><colgroup><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row row">
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1">Port number</th>
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2">Protocol</th>
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3">Service</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1 ">21</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3 ">ftp</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1 ">22</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3 ">sshd</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1 ">80</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3 "></td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="5" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1 ">443</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="5" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="5" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3 "></td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="6" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1 ">8888</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="6" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="6" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3 ">SimpleHTTPServer (used for copying the siqelasticsearch.yml
+                            configuration file from the Elasticsearch node to the data
+                            server)</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="7" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1 ">9200</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="7" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2 ">tcp6</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="7" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3 ">ocker-proxy (listening for REST requests) You can restrict access to
+                            this port by either enabling Search Guard or by setting up a firewall.
+                            For more information, see “Securing Elasticsearch cluster communication
+                            with Search Guard” on page 51 or “Restricting access to port 9200 on
+                            Elasticsearch nodes” on page 52. </td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="8" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__1 ">9300</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="8" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__2 ">tcp6</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="8" headers="unique_7__unique_7_Connect_42_table_mr5_15t_vjb__entry__3 ">docker-proxy (internode communication</td>
+                    </tr>
+                </tbody></table>
+        <table class="- topic/table table frame-all" colsep="1" frame="all" id="unique_7_Connect_42_table_r3k_m5t_vjb" nd:nd-id="table_r3k_m5t_vjb" rowsep="1"><caption><span class="table--title-label">Table <span class="table--title-label-number">4. </span></span><span class="- topic/title title">Default open ports on the IBM StoredIQ gateway</span></caption><colgroup><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row row">
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1">Port number</th>
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__2">Protocol</th>
+                        <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="1" id="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__3">Service</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">22</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="2" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__3 ">PROD-ssh</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">80</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="3" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__3 ">PROD-web</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">443</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="4" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__3 ">PROD-https (UI and Web Services APIs)</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="5" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">5432</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="5" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="5" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__3 ">PROD-postgres </td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="6" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">5434</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="6" morerows="5" rowspan="6" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__2 ">tcp</td>
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="6" morerows="5" rowspan="6" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__3 ">PROD-transport (IBM StoredIQ transport services;
+                            communication between the gateway and the data server)</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="7" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">8765</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="8" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">7766</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="9" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">11102</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="10" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">11103</td>
+                    </tr>
+                    <tr class="- topic/row row">
+                        <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="11" headers="unique_7__unique_7_Connect_42_table_r3k_m5t_vjb__entry__1 ">11104</td>
+                    </tr>
+                </tbody></table>
+        <section class="- topic/section section" id="unique_7_Connect_42_section_br4_v5t_vjb" nd:nd-id="section_br4_v5t_vjb"><h2 class="- topic/title title sectiontitle">Supported chain and rules on the IBM StoredIQ gateway </h2>
+            
+            <p class="- topic/p p">In iptables, the following firewall and chain rules are defined: </p>
+            <pre class="+ topic/pre pr-d/codeblock pre codeblock" xml:space="preserve"><code>'PROD-transport':['5434','8765','7766','11102','11103','11104'],
+            'PROD-https':['443'],
+            'PROD-ssh':['22'],
+            'PROD-web':['80'],
+            'PROD-postgres':[’5432’]
+</code></pre>
+            <pre class="+ topic/pre pr-d/codeblock pre codeblock" xml:space="preserve"><code>'desktop' service:
+            'PROD-broker':['21000'],
+            'PROD-collectionsvc':['21300:21399'],
+            'PROD-desktopupgrade':['21004'],
+            'PROD-objlistmgr':['21100:21199'],
+            'PROD-objlistsvc':['21200:21299'],
+            'PROD-registration':['21001'],
+            'PROD-session':['21002'],
+            'PROD-task':['21003'],
+</code></pre>
+        </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title8" break-before="true" is-chapter="true" id="unique_8" topicrefclass="- map/topicref " nd:nd-id="open_ports_for_desktop_client_access_to_the_data_server" oid="open_ports_for_desktop_client_access_to_the_data_server">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title8">Open ports for desktop client access to the data server</h1>
+    
+    <div class="- topic/body task/taskbody body taskbody"><p class="- topic/shortdesc shortdesc"></p>
+        <section class="- topic/section task/context section context">
+            <p class="- topic/p p">To open ports for desktop client access to the data server on OVA deployed systems,
+                follow these steps: </p>
+        </section>
+        <section><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd"> Log in to the data server as root and run this command: <span class="+ topic/keyword sw-d/cmdname keyword cmdname">python
+                        /usr/local/storediq/bin/util/port_handler.pyc -e desktop</span>
+                </span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd"> Run this command:<span class="+ topic/keyword sw-d/cmdname keyword cmdname">iptables -L INPUT</span></span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p">In the output of the command, check the list position of the rule that is
+                        named PROD-reject, for example, the 6th position on the list.</p>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd"> Run this command:<span class="+ topic/keyword sw-d/cmdname keyword cmdname">iptables -A INPUT -j PROD-reject</span>
+                </span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Run this command: <span class="+ topic/keyword sw-d/cmdname keyword cmdname">iptables -D INPUT list_position</span>
+                </span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p">
+                        <span class="+ topic/keyword sw-d/cmdname keyword cmdname">list_position</span> is the position number of the PROD-reject
+                        rule that you determined in step 2. </p>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Run the following command: <span class="+ topic/keyword sw-d/cmdname keyword cmdname">python
+                        /usr/local/storediq/bin/util/port_handler.pyc -e desktop </span></span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <div class="- topic/note note tip note_tip" type="tip"><span class="note__title">Tip:</span> These steps are required only on an IBM StoredIQ OVA deployed
+                        system. The correct ports are open on an upgraded system.</div>
+                </div>
+            </li></ol></section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title9" break-before="true" is-chapter="true" id="unique_9" topicrefclass="- map/topicref " nd:nd-id="environment_sizing_guidelines" oid="environment_sizing_guidelines">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title9">Environment sizing guidelines </h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">To size an environment precisely, you must understand the factors such as harvest
+        frequency, complexity of the source, and use case scenarios that drive application use and
+        action execution. </p>
+        <p class="- topic/p p">The general design guidelines for IBM StoredIQ are as follows: </p>
+        <ul class="- topic/ul ul" id="unique_9_Connect_42_ul_y2t_kwt_vjb" nd:nd-id="ul_y2t_kwt_vjb">
+            <li class="- topic/li li">For data servers of the type DataServer - Classic: <ul class="- topic/ul ul" id="unique_9_Connect_42_ul_lm3_lwt_vjb" nd:nd-id="ul_lm3_lwt_vjb">
+                    <li class="- topic/li li">One data server for up to 30 TBs of data (which can vary based on the number
+                        of volumes, objects per volume, and object types).</li>
+                    <li class="- topic/li li">Up to 500 volumes per data server.<div class="- topic/note note tip note_tip" type="tip"><span class="note__title">Tip:</span>  When you're sizing an
+                            environment that includes Sharepoint data sources, keep in mind that
+                            volumes must be defined at Sharepoint site collection level, not the
+                            Sharepoint server level. </div></li>
+                    <li class="- topic/li li"> Up to 150 million objects per data server. </li>
+                </ul></li>
+            <li class="- topic/li li">One gateway per 50 data servers. </li>
+            <li class="- topic/li li">One application server. </li>
+            <li class="- topic/li li">NFS is slightly faster than CIFS for metadata only, but assume CIFS/NFS even for
+                this exercise. </li>
+            <li class="- topic/li li">Full-content processing of file (for example, .ZIP, .RAR, .GZ) and email archive
+                (.PST, .NSF, .EMX) processing are slower as items must be extracted from the
+                archives. If there is a significant number of these files in the file system and
+                they are not excluded from content processing, the full-content processing rate can
+                be too high. Until you have an initial index of the file system, you do not know how
+                to weigh full-content processing of archives. </li>
+            <li class="- topic/li li"> An object/time metric is appropriate for metadata only NOT computing a hash,
+                membership in the National Institute of Standards and Technology (NIST) or
+                enumerating objects that are contained in archives. Converting it to a bytes/time
+                metric is a function of the average object size and might vary tremendously. An
+                average object size of 250 KB was used for the metric that is provided earlier. </li>
+            <li class="- topic/li li">A bytes/time metric is appropriate for metadata-only computing a hash and
+                full-content processing. The object per second rate can vary tremendously depending
+                on the object type and sizes encountered. For example, processing an email or file
+                archive is much more expensive than a PDF document. </li>
+            <li class="- topic/li li">Metadata-only not computing a hash, membership in the NIST list, or enumerating
+                objects that are contained in archives is requesting only the file-attribute
+                information from the NAS. Individual files are not opened and read. The processing
+                rate is high, but that does not translate into a large amount of data that traverses
+                a network between the NAS and data server. The bytes/time rate does not translate
+                into bytes served by the NAS and sent over the network. </li>
+            <li class="- topic/li li"> Metadata-only computing a hash, membership in the NIST list, or enumerating objects
+                that are contained in archives opens and reads the contents of each file. The
+                content of all requested files traverses the network between the NAS and data
+                server. The maximum load that the data server can place on a NAS is metadata-only
+                processing. It requires all file content to be read to compute a hash or enumerate
+                objects that are contained in archives. The bytes/time rate translates into bytes
+                served up by the NAS and network traffic that must be considered. </li>
+            <li class="- topic/li li">Full-content processing opens and reads the contents of each file to extract all
+                text. The content of all requested files traverses the network between the NAS and
+                data server. The processing time to enumerate archives, extract text, index words,
+                and extract entities on the data server reduces the rate that data is requested from
+                a NAS compared to metadata-only with full hash. The bytes/time rate translates into
+                bytes served up by the NAS and network traffic that must be considered. </li>
+            <li class="- topic/li li">The interrogator process count on the data server for "metadata only not reading all
+                content indexing" is set to eight for optimal performance. </li>
+            <li class="- topic/li li">The interrogator process count for all other processing that involves reading all
+                content default setting is four per data server. </li>
+            <li class="- topic/li li">The interrogator count can be viewed as the number of client connections that are
+                made to a data source actively requesting data. It is important for capacity
+                planning for the data source. </li>
+            <li class="- topic/li li">The data servers are assumed to be "network close" to the NAS data sources. Network
+                latency under 10 ms with at least 1000 Mbps bandwidth is assumed (connected through
+                local area network). The data servers need a low latency high-bandwidth connection
+                to a NAS data source for acceptable indexing performance. </li>
+            <li class="- topic/li li">The gateway and application stack can be located remotely from the data servers.
+                Network connections with latency greater than 10 ms and bandwidth of at least 2+
+                Mbps are acceptable. </li>
+        </ul>
+        <section class="- topic/section section" id="unique_9_Connect_42_section_i5x_vwt_vjb" nd:nd-id="section_i5x_vwt_vjb"><h2 class="- topic/title title sectiontitle">Stack-provisioning prerequisites</h2>
+            
+            <p class="- topic/p p">Before a deployment, verify that you meet these prerequisites. </p>
+            <ul class="- topic/ul ul" id="unique_9_Connect_42_ul_flq_xwt_vjb" nd:nd-id="ul_flq_xwt_vjb">
+                <li class="- topic/li li"> At least one physical server with sufficient processor, RAM, and hard disk
+                    configuration for the planned management project. </li>
+                <li class="- topic/li li">VMware ESX or ESXi on CD/DVD or USB drive. </li>
+                <li class="- topic/li li">IP addresses, cables, and physical switch ports for at least the ESXi/ESX
+                    interface, one data server, one gateway server, and one application stack. </li>
+                <li class="- topic/li li">Network connectivity that is enabled from the following locations: <ul class="- topic/ul ul" id="unique_9_Connect_42_ul_mxs_zwt_vjb" nd:nd-id="ul_mxs_zwt_vjb">
+                        <li class="- topic/li li">The data server IP address to the gateway IP address on port 11103 </li>
+                        <li class="- topic/li li">The gateway IP address to and from the application stack IP address on
+                            port 8765 and 5432 </li>
+                        <li class="- topic/li li">Ports 80, 443, and 22 from the administrative workstation to the
+                            application stack and data server IP addresses</li>
+                        <li class="- topic/li li">Port 22 from the administrative workstation to the gateway IP
+                            address.</li>
+                    </ul></li>
+                <li class="- topic/li li"> Network connectivity that is enabled from the data server IP address to any
+                    data sources to be harvested and managed. </li>
+                <li class="- topic/li li">A management station computer or notebook from where the load-management work is
+                    done. </li>
+            </ul>
+        </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title10" break-before="true" is-chapter="true" id="unique_10" topicrefclass="- map/topicref " nd:nd-id="licence_usage_metrics" oid="licence_usage_metrics">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title10">Licence usage metrics</h1>
+    <div class="- topic/body concept/conbody body conbody">
+        <p class="- topic/p p">Using the IBM License Metric Tool, you can generate license consumption reports that
+            count IBM StoredIQ license usage. </p>
+        <p class="- topic/p p">IBM StoredIQ is licensed by Resource Value Unit (RVU). RVU calculation is based on
+            terabytes IBM StoredIQ. </p>
+        <p class="- topic/p p">On the IBM StoredIQ application stack, a license program writes usage information to an
+            IBM Software Licence Metric Tag (SLMT) file. This file has the extension .slmtag and can
+            be read periodically by the IBM License Metric Tool (ILMT) after it has been configured
+            to scan for these files. You can generate reports that summarize usage.</p>
+        <p class="- topic/p p"> By default, the license program retrieves the size of the <strong class="+ topic/ph hi-d/b ph b">All Data Objects</strong>
+            infoset in terabytes once per day and writes this information to the
+                <span class="+ topic/ph sw-d/filepath ph filepath">/var/siq/ilmt/3cd1469042433ee7010fe09f661dc67b.slmtag</span> file. The
+            .slmtag file can store information up to a maximum file size of 1 MB, after which the
+            file is archived and a new log file is created. A maximum of 10 log files are kept. The
+            .slmtag file contains usage information in the following format, where new metric
+            records are appended to the end of the file: </p>
+        <pre class="+ topic/pre pr-d/codeblock pre codeblock" xml:space="preserve"><code>&lt;SchemaVersion&gt;2.1.1&lt;/SchemaVersion&gt; 
+&lt;SoftwareIdentity&gt;
+        &lt;PersistentId&gt;cb98e260a2a14872902578de1b8e2016&lt;/PersistentId&gt;
+        &lt;Name&gt;IBM StoredIQ Data Assessment&lt;/Name&gt;
+        &lt;InstanceId&gt;/var/siq/ilmt&lt;/InstanceId&gt; 
+&lt;/SoftwareIdentity&gt; 
+&lt;Metric logTime="2019-01-25T15:58:26+00:00"&gt;
+        &lt;Type&gt;TERABYTE&lt;/Type&gt;
+        &lt;SubType&gt;All Data Objects&lt;/SubType&gt;
+        &lt;Value&gt;0.005&lt;/Value&gt;
+        &lt;Period&gt;
+                &lt;StartTime&gt;2019-01-25T15:58:26+00:00&lt;/StartTime&gt;
+                &lt;EndTime&gt;2019-01-25T15:58:26+00:00&lt;/EndTime&gt;
+        &lt;/Period&gt;
+ &lt;/Metric&gt;
+</code></pre>
+        <section class="- topic/section section" id="unique_10_Connect_42_section_kzc_cyt_vjb" nd:nd-id="section_kzc_cyt_vjb"><h2 class="- topic/title title sectiontitle">Integration with IBM License Metric Tool</h2>
+            
+            <p class="- topic/p p">Versions of IBM License Metric Tool (ILMT) that support IBM Software License Metric
+                Tag (SLMT) can generate license consumption reports. An ILMT agent can scan in
+                configurable intervals the file system for .slmtag files, collect information, and
+                send it to the corresponding ILMT server. ILMT reports the number of terabytes
+                managed by IBM StoredIQ. This number is to be used as input for the RVU License
+                Conversion Table specified in the license information (li_languagecode file) that
+                comes with IBM StoredIQ. On the application stack, you can find the license
+                information in the License directory. </p>
+            <p class="- topic/p p">For more information about using IBM License Metric Tool, see the <a class="- topic/xref xref" format="html" href="https://www.ibm.com/support/knowledgecenter/SS8JFY_9.2.0/com.ibm.lmt.doc/welcome/LMT_welcome.html" scope="external" target="_blank">IBM License Metric Tool documentation.
+                </a></p>
+        </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title11" break-before="true" is-chapter="true" id="unique_11" topicrefclass="- map/topicref " nd:nd-id="security" oid="security">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title11">Security</h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">Plan and implement specific security measures to protect the application and the data
+        it manages, especially when you deploy IBM StoredIQ into sensitive environments.</p>
+        <p class="- topic/p p">IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing. </p>
+        <section class="- topic/section section" id="unique_11_Connect_42_section_yrd_lyt_vjb" nd:nd-id="section_yrd_lyt_vjb"><h2 class="- topic/title title sectiontitle">Federal Information Processing Standard (FIPS) </h2>
+            
+            <p class="- topic/p p">FIPS is a standard recommended by the National Institute of Standards and Technology
+                (NIST) and the US Federal Government. It ensures certain security standards are met
+                for software or hardware components deployed at US government sites. Enabling FIPS
+                ensures that the SSL/TLS engine that is compliant with the US Government
+                recommendation is used. IBM StoredIQ supports FIPS Level 1. Secure gateway
+                communication can be enabled without FIPS. If FIPS is enabled, IBM StoredIQ uses
+                FIPS compliant versions of OpenSSL.</p>
+        </section>
+        <section class="- topic/section section" id="unique_11_Connect_42_section_w3j_myt_vjb" nd:nd-id="section_w3j_myt_vjb"><h2 class="- topic/title title sectiontitle">Secure communication and encryption of data in motion</h2>
+            
+            <p class="- topic/p p">In a production environment, you should configure or install certificates on the
+                AppStack to enable HTTPS communication and to enable encryption of data in motion
+                between the browser and the AppStack. You can to this during installation and
+                initial configuration or at any time afterward. For details, see the instructions
+                for configuring certificates. </p>
+            <p class="- topic/p p">The gateway handles the communication between the data servers and the application
+                stack. By default, the communication between the gateway, any data servers, and the
+                AppStack is in plain text and is not encrypted. If your enterprise security policy
+                mandates encryption of data in motion, enable secure gateway communication. In this
+                case, secure gateway communication must be configured on all three IBM StoredIQ
+                components. You can enable secure gateway communication during installation and
+                initial configuration or at any time afterward. For details, see “Managing the
+                status of secure gateway communication” on page 54. </p>
+            <p class="- topic/p p">IBM StoredIQ then uses stunnel to ensure secure communication between the components.
+                If your environment includes data servers of the type DataServer - Distributed,
+                stunnel can also be used to encrypt the communication between the nodes within the
+                Elasticsearch cluster but not for encrypting the communication between the data
+                server and the Elasticsearch cluster. </p>
+            <p class="- topic/p p">To secure the communication between the data server and the Elasticsearch cluster and
+                the communication within the Elasticsearch cluster likewise, you can enable Search
+                Guard. For more information, see “Securing Elasticsearch cluster communication with
+                Search Guard” on page 51. If you don't want to do that but still want to restrict
+                client access to port 9200 on the Elasticsearch nodes, you can set up the firewall
+                accordingly. For more information, see “Restricting access to port 9200 on
+                Elasticsearch nodes” on page 52. </p>
+            <p class="- topic/p p">If FIPS is not enabled, the following cipher suites and encryption algorithm are used
+                for data at rest: </p>
+            
+            <p class="- topic/p p">You can configure these cipher suites in the configuration files listed in the list
+                of key and certificate files. However, if you run the utilities for enabling
+                stunnel, you might need to make the respective configuration changes again.</p>
+        </section>
+        <section class="- topic/section section" id="unique_11_Connect_42_section_ghy_vyt_vjb" nd:nd-id="section_ghy_vyt_vjb"><h2 class="- topic/title title sectiontitle">Encryption of data at rest</h2>
+            
+            <p class="- topic/p p">Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the
+                Elasticsearch indexes are stored is encrypted by default. IBM StoredIQ uses Linux
+                Unified Key Setup (LUKS) for disk encryption. For details about key management, see
+                “Key and certificate management” on page 41. </p>
+            <p class="- topic/p p">Optionally, you can encrypt the application data on the IBM StoredIQ application
+                stack. For more information, see “Enabling encryption of IBM StoredIQ AppStack
+                application data” on page 50. </p>
+        </section>
+        <section class="- topic/section section" id="unique_11_Connect_42_section_t35_xyt_vjb" nd:nd-id="section_t35_xyt_vjb"><h2 class="- topic/title title sectiontitle">Network isolation </h2>
+            
+            <p class="- topic/p p">If full-text harvesting and Step-up Analytics actions (cartridges) are applied,
+                Elasticsearch indexes can contain potentially sensitive content. Therefore, you
+                should deploy the Elasticsearch nodes in an isolated location on the network (for
+                example, as an enclave or behind a firewall) that is properly secured according to
+                the sensitivity of the data being harvested. Only the IBM StoredIQ application stack
+                and data servers should be allowed to communicate with the Elasticsearch nodes. </p>
+            <p class="- topic/p p">Also, any data servers and the gateway should be deployed in an isolated network
+                location to allow for communication with authorized clients only. </p>
+        </section>
+        <section class="- topic/section section" id="unique_11_Connect_42_section_is3_1zt_vjb" nd:nd-id="section_is3_1zt_vjb"><h2 class="- topic/title title sectiontitle">Access control </h2>
+            
+            <p class="- topic/p p">The following administrative accounts are required. The builder and siqadmin accounts
+                are IBM StoredIQ-specific accounts. For more information about these accounts, see
+                “Default user accounts” on page 17. </p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">root and builder accounts on the Elasticsearch cluster nodes </strong></p>
+            <p class="- topic/p p">Remote login for root can be disabled. However, local root login is required, either
+                log in as <span class="+ topic/ph ui-d/uicontrol ph uicontrol">root</span> or use the <span class="+ topic/keyword sw-d/cmdname keyword cmdname">su</span> command to
+                obtain root permissions temporarily. </p>
+            <p class="- topic/p p">You set the passwords for the root and builder accounts during the configuration
+                process when you start the VM for the first time. You can change these passwords
+                anytime. </p>
+            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">siqadmin account on the AppStack </strong></p>
+            <p class="- topic/p p">Administration of the AppStack usually does not require direct root access. For
+                day-to-day administration, the siqadmin account can be used. You set the password
+                for the siqadmin account during the configuration process when you start the VM for
+                the first time. You can change this password anytime.</p>
+        </section>
+        <section class="- topic/section section" id="unique_11_Connect_42_section_x3l_3zt_vjb" nd:nd-id="section_x3l_3zt_vjb"><h2 class="- topic/title title sectiontitle">Default user accounts </h2>
+            
+            <p class="- topic/p p">IBM StoredIQ comes with a set of default user accounts. </p>
+            <p class="- topic/p p">For security reasons, change the passwords for these default accounts after the
+                installation is complete so that they are unique and different from the default
+                values. The new password must be 8 to 64 characters long and must contain characters
+                from at least three of these categories: </p>
+            <ul class="- topic/ul ul" id="unique_11_Connect_42_ul_jvx_jzt_vjb" nd:nd-id="ul_jvx_jzt_vjb">
+                <li class="- topic/li li">Uppercase letters: <kbd class="+ topic/ph sw-d/userinput ph userinput">A - Z </kbd></li>
+                <li class="- topic/li li">Lowercase letters: <kbd class="+ topic/ph sw-d/userinput ph userinput">a - z </kbd></li>
+                <li class="- topic/li li">Digits: <kbd class="+ topic/ph sw-d/userinput ph userinput">0 - 9</kbd></li>
+                <li class="- topic/li li">Punctuation marks or special characters: <kbd class="+ topic/ph sw-d/userinput ph userinput">. : = * ˆ / $ # _ + @ &amp;
+                        % Account </kbd></li>
+            </ul>
+            <table class="- topic/table table frame-all" colsep="1" frame="all" id="unique_11_Connect_42_table_zhz_4zt_vjb" nd:nd-id="table_zhz_4zt_vjb" rowsep="1"><caption><span class="table--title-label">Table <span class="table--title-label-number">5. </span></span><span class="- topic/title title"></span></caption><colgroup><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col></colgroup><thead class="- topic/thead thead">
+                        <tr class="- topic/row row">
+                            <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="1" id="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__1">Account</th>
+                            <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="1" id="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__2">Default Password</th>
+                            <th xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="1" id="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__3">Description</th>
+                        </tr>
+                    </thead><tbody class="- topic/tbody tbody">
+                        <tr class="- topic/row row">
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="2" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__1 ">admin</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="2" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__2 ">admin</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="2" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__3 ">Administrative account for accessing IBM StoredIQ Data Server.
+                                Use this account for the initial setup of the data server and to
+                                create further administrative accounts for routine administration.
+                                Change the password in IBM StoredIQ Data Server under <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Administration</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Configuration</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Manage users</span></span>. </td>
+                        </tr>
+                        <tr class="- topic/row row">
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="3" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__1 ">audituser</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="3" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__2 ">Passw0rd!</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="3" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__3 ">
+                                <p class="- topic/p p">Account for accessing the audit database on the AppStack.</p>
+                                <p class="- topic/p p"> Change the password by running the
+                                        <span class="+ topic/keyword sw-d/cmdname keyword cmdname">change_audituser_password</span> script as
+                                    siqadmin user on the AppStack. </p>
+                            </td>
+                        </tr>
+                        <tr class="- topic/row row">
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="4" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__1 ">builder</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="4" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__2 ">None. Password is set during initial configuration.</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="4" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__3 ">
+                                <p class="- topic/p p">Account for accessing the report database on the AppStack.</p>
+                                <p class="- topic/p p"> Change the password by running the
+                                        <span class="+ topic/keyword sw-d/cmdname keyword cmdname">change_reportuser_password</span> script as
+                                    siqadmin user on the AppStack.</p>
+                            </td>
+                        </tr>
+                        <tr class="- topic/row row">
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="5" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__1 ">reportuser</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="5" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__2 ">St0red1q</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="5" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__3 ">
+                                <p class="- topic/p p">Account for accessing the report database on the AppStack.</p>
+                                <p class="- topic/p p">Change the password by running the
+                                        <span class="+ topic/keyword sw-d/cmdname keyword cmdname">change_reportuser_password</span> script as
+                                    siqadmin user on the AppStack.</p>
+                            </td>
+                        </tr>
+                        <tr class="- topic/row row">
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="6" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__1 ">siqadmin</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="6" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__2 ">Passw0rd!</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="6" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__3 ">
+                                <p class="- topic/p p">Administrative account for managing the AppStack server. For more
+                                    information, see the administration guide. </p>
+                                <p class="- topic/p p">With new installations, you are prompted for a new password
+                                    during the initial configuration of the AppStack. In updated
+                                    deployments, change the password by using the Linux
+                                        <span class="+ topic/keyword sw-d/cmdname keyword cmdname">passwd</span> command.</p>
+                            </td>
+                        </tr>
+                        <tr class="- topic/row row">
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col1" dita-ot:x="1" dita-ot:y="7" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__1 ">superadmin</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" dita-ot:x="2" dita-ot:y="7" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__2 ">admin</td>
+                            <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" dita-ot:x="3" dita-ot:y="7" headers="unique_11__unique_11_Connect_42_table_zhz_4zt_vjb__entry__3 ">
+                                <p class="- topic/p p">Administrative account for accessing IBM StoredIQ Administrator
+                                    and IBM StoredIQ Data Server. Use this account for the initial
+                                    setup of IBM StoredIQ and to create further administrative
+                                    accounts for routine administration so that their actions can be
+                                    audited. </p>
+                                <p class="- topic/p p">Change the password in IBM StoredIQ Administrator: go to
+                                        <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Users</span> and edit the superadmin
+                                    account. </p>
+                                <p class="- topic/p p">The superadmin account has access to all IBM StoredIQ
+                                    applications on the application stack. To switch applications,
+                                    click the triangle arrow icon and select the application that
+                                    you want to access from the list of the available applications.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody></table>
+        </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title12" break-before="true" is-chapter="true" id="unique_12" topicrefclass="- map/topicref " nd:nd-id="deploying_ibm_storediq" oid="deploying_ibm_storediq">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title12">Deploying IBM StoredIQ</h1>
+    
+    <div class="- topic/body task/taskbody body taskbody"><p class="- topic/shortdesc shortdesc"></p>
+        <section class="- topic/section task/context section context">
+            <p class="- topic/p p">Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy
+                OVAs for the gateway, the data server, and the application stack, preferably in this
+                order. If an Elasticsearch cluster is also being deployed, those OVAs must be
+                deployed first. </p>
+            <p class="- topic/p p">Ensure that all prerequisites for the deployment described in the planning section
+                are met and that the required software packages are available on your local system
+                before you start this task. </p>
+            <p class="- topic/p p">Download the latest version of IBM StoredIQ from either IBM Fix Central or IBM
+                Passport Advantage. For information about the package names and part numbers and the
+                links to the proper download locations, see the <a class="- topic/xref xref new_window" format="html" href="https://www.ibm.com/support/pages/download-ibm-storediq-version-76019" outputclass="new_window" scope="external" target="_blank">download
+                document</a>. </p>
+            <p class="- topic/p p">The number of Elasticsearch OVAs deployed depends on the planned size of your
+                Elasticsearch cluster. The default setup is a three-node cluster. Each Elasticsearch
+                node requires a separate OVA deployment. The number of data server OVAs deployed
+                depends on the number of data servers needed. Each data server requires a separate
+                OVA deployment. </p>
+        </section>
+        <section><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Connect to the ESX server or vCenter server. </span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Open VMware vSphere Client. </span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Deploy OVF
+                    Template</span>.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Within the Deploy OVF Template wizard, complete these steps.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps" id="unique_12_Connect_42_substeps_wms_l1t_vjb" nd:nd-id="substeps_wms_l1t_vjb">
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Select source</span> page, click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Local file</span>, and then browse to and select the
+                            appropriate OVF. Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Review details</span> page, review the OVF
+                            template details. These storage requirements are critical and will be
+                            used to select a data store during deployment. Click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span> to proceed. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Select name and folder</span> page, enter a
+                            name for the deployed template or use the default name. Click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Select a resource</span> page, select the
+                            resource pool where the deployed OVF template runs. Click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Select storage</span> page, select a data
+                            store on which to store the deployed OVF template files. Click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Disk Format</span> list, select the disk
+                            format to be deployed. Note that although <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Thin
+                                Provision</span> saves disk space, it can negatively affect
+                            performance. If possible, select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Thick Provision Lazy
+                                Zeroed</span>. Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Network Mapping</span>, map the network to
+                            the appropriate network. Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Within the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Ready to Complete</span> page, review the
+                            deployment settings. Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Finish</span> to complete the
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Deploy OVF Template</span>.</span>
+                        <div class="- topic/itemgroup task/stepresult itemgroup stepresult"> At this point, you can select the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Power</span>
+                            on check box to turn on the VM after deployment is complete.
+                        </div>
+                    </li>
+                </ol>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <div class="- topic/note note important note_important" type="important"><span class="note__title">Important:</span> If your IBM StoredIQ environment includes an
+                        Elasticsearch cluster, do not select this option when you're deploying the
+                        data server OVA. The Elasticsearch cluster setup must be complete before you
+                        run the data server first-boot process. </div>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Repeat steps 3 and 4 for each OVA. Configure the components of your IBM
+                    StoredIQ environment in this order:</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <ol class="- topic/ol ol" id="unique_12_Connect_42_ol_rsr_jct_vjb" nd:nd-id="ol_rsr_jct_vjb" type="a">
+                        <li class="- topic/li li">Elasticsearch cluster (if applicable) </li>
+                        <li class="- topic/li li">Gateway </li>
+                        <li class="- topic/li li">One or more data servers </li>
+                        <li class="- topic/li li">Application stack </li>
+                    </ol>
+                </div>
+            </li></ol></section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title13" break-before="true" is-chapter="true" id="unique_13" topicrefclass="- map/topicref " nd:nd-id="deploying_ibm_storediq_on_microsoft_hyper_v" oid="deploying_ibm_storediq_on_microsoft_hyper_v">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title13">Deploying IBM StoredIQ on Microsoft Hyper-V</h1>
+    
+    <div class="- topic/body task/taskbody body taskbody"><p class="- topic/shortdesc shortdesc">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data
+        server, and application stack can be installed on Microsoft Hyper-V. This option is not
+        supported for the Elasticsearch virtual appliance. Installing IBM StoredIQ on Microsoft
+        Hyper-V requires the use of third-party software. </p>
+        <section class="- topic/section task/prereq section prereq" id="unique_13_Connect_42_prereq_ecm_1dt_vjb" nd:nd-id="prereq_ecm_1dt_vjb">For the procedure described here, the following software
+            prerequisites must be met: <ul class="- topic/ul ul" id="unique_13_Connect_42_ul_xv1_cdt_vjb" nd:nd-id="ul_xv1_cdt_vjb">
+                <li class="- topic/li li">Microsoft Hyper-V Manager must be installed on a Windows system. </li>
+                <li class="- topic/li li">7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA. </li>
+                <li class="- topic/li li">7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file. </li>
+                <li class="- topic/li li">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
+                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx files.
+                </li>
+            </ul></section>
+        <section class="- topic/section task/context section context">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be
+            built manually. Consider the following instructions a sample procedure. The instructions
+            might differ depending on the version of the third-party software.<p class="- topic/p p">Complete these
+                steps for the gateway, the data server, and the AppStack:</p></section>
+        <section><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Extract the vmdk file from the OVA.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps" id="unique_13_Connect_42_substeps_dzw_mht_vjb" nd:nd-id="substeps_dzw_mht_vjb">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Download the OVA. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Extract the contents of the OVA by using 7-zip for Windows or tar for
+                            the Linux operating system.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for
+                            Linux.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Delete everything except the vmdk file when the OVA extraction is
+                            complete.</span>
+                    </li>
+                </ol>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file.</span>
+                <div class="- topic/itemgroup task/info itemgroup info"> For instructions about converting .vmdk files to .vhdx files, see the
+                    following links:<ul class="- topic/ul ul" id="unique_13_Connect_42_ul_cx3_tht_vjb" nd:nd-id="ul_cx3_tht_vjb">
+                        <li class="- topic/li li">Use Microsoft Virtual Machine Converter </li>
+                        <li class="- topic/li li">Using qemu-img </li>
+                    </ul></div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Build a virtual machine.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps" id="unique_13_Connect_42_substeps_hnm_vht_vjb" nd:nd-id="substeps_hnm_vht_vjb">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">New Virtual Machine </span>&gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next
+                                from Hyper-V Manager</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Enter the name of the virtual machine in the <span class="+ topic/keyword ui-d/wintitle keyword wintitle">Specify Name and
+                                Location</span> window and click
+                            <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Generation of the machine</span> in the
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Specify Generation</span> window.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Enter the startup memory in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Assign Memory</span>
+                            window.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select the correct network in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Configure
+                                Network</span> window and click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.
+                        </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Use an existing virtual hard disk</span> in the
+                                <span class="+ topic/keyword ui-d/wintitle keyword wintitle">Connect Virtual Hard Disk</span> window. Search the
+                            disk location, select one of the primary disks, and then click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Finish</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Repeat these previous steps for all IBM StoredIQ disks. </span>
+                    </li>
+                </ol>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Optional: Add disks.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps" id="unique_13_Connect_42_substeps_ojn_b3t_vjb" nd:nd-id="substeps_ojn_b3t_vjb">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select a virtual machine in Microsoft Hyper-V Manager.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select the settings for the virtual machine under
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Actions</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select the IDE controller and highlight Hard Drive in the
+                                <span class="+ topic/keyword ui-d/wintitle keyword wintitle">Settings</span> window.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select Hard Drive and virtual hard disk and click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">New</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span> in the New Virtual Hard Disk
+                            wizard.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">VHDX</span> in Choose Disk Format and then click
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Dynamically expanding</span> in Choose Disk Type
+                            and then click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Enter a name for the disk in the <span class="+ topic/keyword ui-d/wintitle keyword wintitle">Specify Name and
+                                Location</span> window and the click
+                            <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Next</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Create a new blank virtual hard disk</span> and
+                            enter a size in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Configure Disk</span> window and
+                            then click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Finish</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Repeat this procedure for all additional disks. Complete the
+                            installation process by following the instructions in “Configuring IBM
+                            StoredIQ” on page 22.</span>
+                    </li>
+                </ol>
+            </li></ol></section>
+    </div>
+</article></div></div></div></div></body></html>

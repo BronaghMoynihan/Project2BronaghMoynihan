@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Deployment and Configuration Guide</title>
+    <topicref href="About_this_publication.dita"/>
+    <topicref href="ibm_storediq_product_library.dita"/>
+    <topicref href="contacting_ibm_storediq_customer_support.dita"/>
+    <topicref href="ibm_stored_iq_components.dita"/>
+    <topicref href="planning_for_deployment.dita"/>
+    <topicref href="open_virtual_appliance__ova__configuration_requirements.dita"/>
+    <topicref href="network_and_port_requirements.dita"/>
+    <topicref href="open_ports_for_desktop_client_access_to_the_data_server.dita"/>
+    <topicref href="environment_sizing_guidelines.dita"/>
+    <topicref href="licence_usage_metrics.dita"/>
+    <topicref href="security.dita"/>
+    <topicref href="deploying_ibm_storediq.dita"/>
+    <topicref href="deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
+</map>

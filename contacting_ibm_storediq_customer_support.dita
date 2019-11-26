@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="contacting_ibm_storediq_customer_support">
+    <title>Contacting IBM StoredIQ customer support </title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>For IBM StoredIQ technical support or to learn about available service options, contact
+            IBM StoredIQ customer support at this phone number: </p>
+        <ul id="ul_adq_gjt_vjb">
+            <li>1-866-227-2068 </li>
+        </ul>
+        <p>Or, see the Contact IBM web site at <xref href="http://www.ibm.com/contact/us/"
+                format="html" scope="external"/>.</p>
+        <p><b>IBM Knowledge Center</b>
+        </p>
+        <p>The IBM StoredIQ documentation is available in IBM Knowledge Center. Contacting IBM </p>
+        <section id="section_fvh_ljt_vjb">
+            <title>Contacting IBM</title>
+            <p>For general inquiries, call 800-IBM-4YOU (800-426-4968). To contact IBM customer
+                service in the United States or Canada, call 1-800-IBM-SERV (1-800-426-7378).</p>
+            <p> For more information about how to contact IBM, including TTY service, see the
+                Contact IBM website at<xref href="http://www.ibm.com/contact/us/" format="html"
+                    scope="external"/>. </p>
+        </section>
+    </conbody>
+</concept>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\bronagh.moynihan\Desktop\Certificate IDD\DITA project\temp\pdf-css-html5?><?workdir-uri file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="planning_for_deployment" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="concept:1;3:39">
+    <title class="- topic/title " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="title:1;4:12">Planning for Deployment</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="shortdesc:1;5:16"/>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="conbody:1;6:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="p:1;7:12">When you plan a deployment of IBM StoredIQ, evaluate several infrastructure
+            considerations. </p>
+        <p class="- topic/p " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="p:2;9:12">In addition to the information in this section, review the requirements detailed in the
+            IBM Software Product Compatibility Reports (SPCR) tool at: Software Product
+            Compatibility Reports: StoredIQ 7.6 </p>
+        <p class="- topic/p " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="p:3;12:12">If you plan to use IBM StoredIQ for Legal Identification and Collection to create and
+            manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also check
+            the system requirements for StoredIQ for Legal at: Software Product Compatibility
+            Reports: StoredIQ for Legal 2.0.3</p>
+        <section id="section_hz1_j4t_vjb" class="- topic/section " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="section:1;16:43">
+            <title class="- topic/title " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="title:2;17:20"> Generate customized reports with the SPCR tool </title>
+            <p class="- topic/p " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="p:4;18:16"> Go to the page at Software Product Compatibility Reports to create a high-level
+                report for supported operating systems, related software, hypervisors, and supported
+                translations for any product. You can also create an in-depth report to get detailed
+                system requirements, hardware requirements, and end of service information for each
+                product. You can search for a product in all of the report types and reports are
+                generated based on your query values. The following report types are the most
+                commonly generated reports from software product compatibility reports:</p>
+            <ul id="ul_o22_l4t_vjb" class="- topic/ul " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="ul:1;25:37">
+                <li class="- topic/li " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="li:1;26:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="b:1;26:24">Detailed system requirements</b><p class="- topic/p " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="p:5;26:59">When you select your product version for
+                        the detailed system requirements report, you can set a report filter for
+                        Operating system platforms, Product components, and Capabilities, including
+                        prerequisites and support software. After you view the report, you can save
+                        it as a URL to generate anytime or download it as a PDF. </p></li>
+                <li class="- topic/li " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="li:2;31:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="b:2;31:24">Hardware requirements </b><p class="- topic/p " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="p:6;31:53">When you select your product version for the
+                        hardware requirements report, you can set a report filter by the Operating
+                        system families option. Set the operating system filter by selecting some or
+                        all of the operating systems that are supported by your product. After you
+                        view the report, you can save it as a URL to generate anytime or download it
+                        as a PDF. </p></li>
+                <li class="- topic/li " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="li:3;37:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="b:3;37:24">End of service</b><p class="- topic/p " xtrf="file:/C:/Users/bronagh.moynihan/Desktop/Certificate%20IDD/DITA%20project/planning_for_deployment.dita" xtrc="p:7;37:45">The end of service report shows the service window of
+                        the products that you specify over an eightyear span. For example, you can
+                        find out when your product is scheduled to go out of service. </p></li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

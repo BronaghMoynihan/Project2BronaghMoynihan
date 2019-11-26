@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="21.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QDeployment%20and%20Configuration%20Guide.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="Deployment%20and%20Configuration%20Guide.xpr">
+        <folder path="Images/"/>
+    </projectTree>
+</project>
